@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+env/
+venv/
+ENV/
+
+# Logs
+log/
+*.log
+
+# Temp files
+temp/
+*.tmp
+*.bak
+
+# Attachments
+attachments/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Environment
+.env
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Jupyter
+*.ipynb_checkpoints
+
+# Others
+*.swp
+*.swo
