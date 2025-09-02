@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Procesamiento de XML</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: 300;
+        }
+        .header p {
+            margin: 10px 0 0 0;
+            opacity: 0.9;
+        }
+        .content {
+            padding: 30px 20px;
+        }
+        .info-section {
+            margin-bottom: 25px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            border-left: 4px solid #667eea;
+        }
+        .info-section h3 {
+            margin: 0 0 10px 0;
+            color: #333;
+            font-size: 16px;
+        }
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            background-color: white;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .data-table th {
+            background-color: #667eea;
+            color: white;
+            padding: 12px 8px;
+            text-align: left;
+            font-weight: 500;
+        }
+        .data-table td {
+            padding: 10px 8px;
+            border-bottom: 1px solid #eee;
+        }
+        .data-table tr:last-child td {
+            border-bottom: none;
+        }
+        .data-table tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        .highlight {
+            background-color: #fff3cd;
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #ffeaa7;
+            margin: 10px 0;
+        }
+        .file-list {
+            list-style: none;
+            padding: 0;
+        }
+        .file-list li {
+            padding: 8px 12px;
+            margin: 5px 0;
+            background-color: #e9ecef;
+            border-radius: 4px;
+            border-left: 3px solid #28a745;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            border-top: 1px solid #dee2e6;
+        }
+        .footer p {
+            margin: 0;
+            color: #6c757d;
+            font-size: 14px;
+        }
+        .environment-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .env-test {
+            background-color: #fff3cd;
+            color: #856404;
+        }
+        .env-prod {
+            background-color: #d4edda;
+            color: #155724;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Procesamiento XML Completado</h1>
+            <p>{{ fecha_procesamiento }}</p>
+            <span class="environment-badge {% if entorno == 'test' %}env-test{% else %}env-prod{% endif %}">
+                {{ entorno }}
+            </span>
+        </div>
+        
+        <div class="content">
+            <div class="info-section">
+                <h3>📧 Información del Email Original</h3>
+                <p><strong>Remitente:</strong> {{ email_origen }}</p>
+                <p><strong>Asunto:</strong> {{ asunto_original }}</p>
+            </div>
+            
+            <div class="info-section">
+                <h3>📄 Archivo XML Procesado</h3>
+                <p><strong>Nombre del archivo:</strong> {{ xml_filename }}</p>
+                <p><strong>Email extraído:</strong> 
+                    <span class="highlight">{{ email_extraido }}</span>
+                </p>
+            </div>
+            
+            {% if xml_data %}
+            <div class="info-section">
+                <h3>🔍 Datos Extraídos del XML</h3>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Campo</th>
+                            <th>Valor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for campo, valor in xml_data.items() %}
+                        <tr>
+                            <td><strong>{{ campo }}</strong></td>
+                            <td>{{ valor }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% endif %}
+            
+            {% if adjuntos_procesados %}
+            <div class="info-section">
+                <h3>📎 Archivos Adjuntos Procesados</h3>
+                <ul class="file-list">
+                    {% for adjunto in adjuntos_procesados %}
+                    <li>{{ adjunto }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+                <div class="info-section">
+                    <h3>Datos principales del XML</h3>
+                    <p><strong>Razón social:</strong> {{ razon_social }}</p>
+                    <p><strong>Clave de acceso:</strong> {{ clave_acceso }}</p>
+                    <p><strong>Total con impuestos:</strong> ${{ total_con_impuestos }}</p>
+                    <p><strong>Fecha de emisión:</strong> {{ fecha_emision }}</p>
+                    <p><strong>Número de factura:</strong> {{ numero_factura }}</p>
+                </div>
+        </div>
+        
+        <div class="footer">
+            <p>Este email fue generado automáticamente por el sistema de procesamiento XML.</p>
+            <p>Si tienes alguna pregunta, contacta al administrador del sistema.</p>
+        </div>
+    </div>
+</body>
+</html>

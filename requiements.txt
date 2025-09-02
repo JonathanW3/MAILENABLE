@@ -1,0 +1,38 @@
+# Dependencias del Servicio de Procesamiento XML
+# ==============================================
+
+# Variables de entorno
+python-dotenv==1.0.0
+
+# Templating HTML
+Jinja2==3.1.2
+
+# Logging mejorado
+colorlog==6.7.0
+
+# Manejo de fechas
+python-dateutil==2.8.2
+
+# Validación de datos
+pydantic==2.5.0
+
+# Utilidades de sistema
+pathlib2==2.3.7
+
+# Para manejo de archivos XML mejorado
+lxml==4.9.3
+
+# Para manejo de emails con mejor soporte
+email-validator==2.1.0
+
+# Para manejo de archivos ZIP
+zipfile36==0.1.3
+
+# Charset detection para emails
+chardet==5.2.0
+
+# Utilidades adicionales
+click==8.1.7
+
+# Para debugging y desarrollo
+rich==13.7.0

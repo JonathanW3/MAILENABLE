@@ -1,0 +1,132 @@
+2025-09-01 22:54:17,824 - INFO - Servicio iniciado en modo: test
+2025-09-01 22:54:17,824 - INFO - Ejecutando servicio de monitoreo
+2025-09-01 22:54:17,824 - INFO - === INICIANDO SERVICIO - PROCESANDO EMAILS REALES ===
+2025-09-01 22:54:19,190 - INFO - Correos no leídos encontrados: 1
+2025-09-01 22:54:19,191 - INFO - Procesando email #1 de 1
+2025-09-01 22:54:19,191 - INFO - Procesando email de: webpos soporte <webpos.soporte@gmail.com>, Asunto: envio 3
+2025-09-01 22:54:19,194 - INFO - Encontrados 2 adjuntos
+2025-09-01 22:54:19,194 - INFO - Adjuntos encontrados: ['FACTURA_0708202501099284045500120010010000062191234567816.pdf', 'FACTURA_0708202501099284045500120010010000062191234567816_AUTORIZADO.xml']
+2025-09-01 22:54:19,222 - INFO - Procesando adjunto: FACTURA_0708202501099284045500120010010000062191234567816.pdf
+2025-09-01 22:54:19,225 - INFO - Procesando adjunto: FACTURA_0708202501099284045500120010010000062191234567816_AUTORIZADO.xml
+2025-09-01 22:54:19,225 - INFO - Contenido extraído del CDATA:
+<?xml version="1.0" encoding="utf-8"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>WEBPOS S.A.</razonSocial>
+    <nombreComercial>WEBPOS S.A</nombreComercial>
+    <ruc>0992840455001</ruc>
+    <claveAcceso>0708202501099284045500120010010000062191234567816</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>000006219</secuencial>
+    <dirMatriz>Voz Andes 
+2025-09-01 22:54:19,227 - INFO - Campo encontrado: 'NOTA' -> 'nota'
+2025-09-01 22:54:19,229 - INFO - Campo encontrado: 'vendedor ' -> 'vendedor'
+2025-09-01 22:54:19,230 - INFO - Campo encontrado: 'correo ' -> 'correo'
+2025-09-01 22:54:19,230 - INFO - Email encontrado: acontable@casalinda.ec
+2025-09-01 22:54:19,230 - INFO - Clave de acceso: 0708202501099284045500120010010000062191234567816
+2025-09-01 22:54:19,231 - INFO - Total con impuestos: 113.85
+2025-09-01 22:54:19,231 - INFO - Razón social comprador: COMERCIAL CASALINDA S.A.
+2025-09-01 22:54:19,231 - INFO - Razón social: WEBPOS S.A.
+2025-09-01 22:54:19,231 - INFO - Fecha emisión: 07/08/2025
+2025-09-01 22:54:19,233 - INFO - Número factura/secuencial: 000006219
+2025-09-01 22:54:19,233 - INFO - Establecimiento: 001
+2025-09-01 22:54:19,233 - INFO - Punto de emisión: 001
+2025-09-01 22:54:19,234 - INFO - Código de documento: 01
+2025-09-01 22:54:19,234 - INFO - Tipo de emisión: 1
+2025-09-01 22:54:19,234 - INFO - === DATOS XML PROCESADOS EXITOSAMENTE ===
+2025-09-01 22:54:19,234 - INFO - Email destinatario: acontable@casalinda.ec
+2025-09-01 22:54:19,234 - INFO - Clave acceso: 0708202501099284045500120010010000062191234567816
+2025-09-01 22:54:19,234 - INFO - Total: 113.85
+2025-09-01 22:54:19,237 - INFO - Establecimiento: 001
+2025-09-01 22:54:19,237 - INFO - Punto emisión: 001
+2025-09-01 22:54:19,237 - INFO - Secuencial: 000006219
+2025-09-01 22:54:19,237 - INFO - Número autorización: 
+2025-09-01 22:54:19,238 - INFO - Código documento: 01
+2025-09-01 22:54:19,238 - INFO - Tipo emisión: 1
+2025-09-01 22:54:19,238 - INFO - Datos completos: {'email_destinatario': 'acontable@casalinda.ec', 'clave_acceso': '0708202501099284045500120010010000062191234567816', 'total_con_impuestos': '113.85', 'razon_social': 'WEBPOS S.A.', 'razon_social_comprador': 'COMERCIAL CASALINDA S.A.', 'fecha_emision': '07/08/2025', 'numero_factura': '000006219', 'estab': '001', 'pto_emi': '001', 'secuencial': '000006219', 'numero_autorizacion': '', 'codigo_documento': '01', 'tipo_emision': '1', 'fecha_autorizacion': '', 'estado_autorizacion': ''}
+2025-09-01 22:54:19,239 - INFO - Número de autorización (desde XML autorización): 0708202501099284045500120010010000062191234567816
+2025-09-01 22:54:19,240 - INFO - Fecha de autorización: 2025-08-07T12:20:36.000-05:00
+2025-09-01 22:54:19,240 - INFO - Estado autorización: AUTORIZADO
+2025-09-01 22:54:19,240 - INFO - Datos extraídos del XML: XMLData(email_destinatario='acontable@casalinda.ec', clave_acceso='0708202501099284045500120010010000062191234567816', total_con_impuestos='113.85', razon_social='WEBPOS S.A.', razon_social_comprador='COMERCIAL CASALINDA S.A.', fecha_emision='07/08/2025', numero_factura='000006219', estab='001', pto_emi='001', secuencial='000006219', numero_autorizacion='0708202501099284045500120010010000062191234567816', codigo_documento='01', tipo_emision='1', fecha_autorizacion='2025-08-07T12:20:36.000-05:00', estado_autorizacion='AUTORIZADO')
+2025-09-01 22:54:19,240 - INFO - Email destino para cliente: jalcoser@webpospanama.com
+2025-09-01 22:54:19,240 - INFO - === SERVICIO - CONTEXTO PARA PLANTILLAS ===
+2025-09-01 22:54:19,240 - INFO - Número de comprobante generado: 001-001-000006219
+2025-09-01 22:54:19,240 - INFO - Tipo de documento: 01 - Factura
+2025-09-01 22:54:19,242 - INFO - Tipo de emisión: 1 - Emisión Normal
+2025-09-01 22:54:19,242 - INFO - Contexto completo: {
+  "fecha_procesamiento": "01/09/2025 22:54:19",
+  "entorno": "test",
+  "email_origen": "webpos soporte <webpos.soporte@gmail.com>",
+  "asunto_original": "envio 3",
+  "xml_filename": "FACTURA_0708202501099284045500120010010000062191234567816_AUTORIZADO.xml",
+  "email_extraido": "acontable@casalinda.ec",
+  "clave_acceso": "0708202501099284045500120010010000062191234567816",
+  "total_con_impuestos": "113.85",
+  "razon_social": "COMERCIAL CASALINDA S.A.",
+  "fecha_emision": "07/08/2025",
+  "numero_factura": "000006219",
+  "adjuntos_procesados": [
+    "FACTURA_0708202501099284045500120010010000062191234567816.pdf",
+    "FACTURA_0708202501099284045500120010010000062191234567816_AUTORIZADO.xml"
+  ],
+  "xml_data": {
+    "email_destinatario": "acontable@casalinda.ec",
+    "clave_acceso": "0708202501099284045500120010010000062191234567816",
+    "total_con_impuestos": "113.85",
+    "razon_social": "WEBPOS S.A.",
+    "razon_social_comprador": "COMERCIAL CASALINDA S.A.",
+    "fecha_emision": "07/08/2025",
+    "numero_factura": "000006219",
+    "estab": "001",
+    "pto_emi": "001",
+    "secuencial": "000006219",
+    "numero_autorizacion": "0708202501099284045500120010010000062191234567816",
+    "codigo_documento": "01",
+    "tipo_emision": "1",
+    "fecha_autorizacion": "2025-08-07T12:20:36.000-05:00",
+    "estado_autorizacion": "AUTORIZADO"
+  },
+  "numero_comprobante": "001-001-000006219",
+  "numero_autorizacion": "0708202501099284045500120010010000062191234567816",
+  "estab": "001",
+  "pto_emi": "001",
+  "secuencial": "000006219",
+  "codigo_documento": "01",
+  "tipo_documento_texto": "Factura",
+  "tipo_emision": "1",
+  "tipo_emision_texto": "Emisión Normal",
+  "fecha_autorizacion": "2025-08-07T12:20:36.000-05:00",
+  "estado_autorizacion": "AUTORIZADO"
+}
+2025-09-01 22:54:19,242 - INFO - === ENVIANDO EMAIL DE PROCESSING (email_template.html) ===
+2025-09-01 22:54:19,257 - INFO - HTML generado para email_template.html (primeros 200 chars): <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Procesamiento de XML</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  ...
+2025-09-01 22:54:19,257 - INFO - Preparando email para enviar. Destino: edelivery@webpossa.com, Asunto: '[TEST] XML Procesado - FACTURA_0708202501099284045500120010010000062191234567816_AUTORIZADO.xml'
+2025-09-01 22:54:20,517 - INFO - Email enviado exitosamente a: edelivery@webpossa.com
+2025-09-01 22:54:20,517 - INFO - Email de procesamiento enviado correctamente a edelivery@webpossa.com
+2025-09-01 22:54:20,517 - INFO - === ENVIANDO EMAIL DE CLIENTE (webpos_template.html) ===
+2025-09-01 22:54:20,658 - INFO - Preparando email para enviar. Destino: jalcoser@webpospanama.com, Asunto: 'Su Documento Electrónico - WebPOS'
+2025-09-01 22:54:22,164 - INFO - Email enviado exitosamente a: jalcoser@webpospanama.com
+2025-09-01 22:54:22,164 - INFO - Email de cliente enviado correctamente a jalcoser@webpospanama.com
+2025-09-01 22:57:01,009 - INFO - Servicio iniciado en modo: test
+2025-09-01 22:57:01,024 - INFO - === INICIANDO MODO MONITOR - Buscando email específico ===
+2025-09-01 22:57:01,024 - INFO - Conectando al buzón para buscar email específico...
+2025-09-01 22:57:02,419 - INFO - Total de emails en buzón: 1
+2025-09-01 22:57:02,419 - WARNING - ❌ No se encontró ningún email que coincida con los criterios
+2025-09-01 22:57:02,419 - INFO - 📤 ENVIANDO REPORTE DE MONITOR
+2025-09-01 22:57:02,419 - INFO - 📧 Destino: jalcoser@webpospanama.com
+2025-09-01 22:57:02,433 - INFO - Preparando email para enviar. Destino: jalcoser@webpospanama.com, Asunto: '[TEST] MONITOR - Email Específico Procesado'
+2025-09-01 22:57:03,651 - INFO - Email enviado exitosamente a: jalcoser@webpospanama.com
+2025-09-01 22:57:03,651 - INFO - ✅ Reporte de monitor enviado exitosamente a jalcoser@webpospanama.com
+2025-09-01 22:57:03,651 - INFO - 📋 RESUMEN: Email no encontrado con criterios: asunto: 'envio 8'
