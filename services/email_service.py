@@ -89,7 +89,7 @@ class EmailXMLProcessor:
                 raw_email = msg_data[0][1]
                 email_message = email.message_from_bytes(raw_email)
                 emails.append(email_message)
-                #imap_conn.store(num, '+FLAGS', '\\Seen')
+                imap_conn.store(num, '+FLAGS', '\\Seen')
         finally:
             imap_conn.logout()
         return emails
