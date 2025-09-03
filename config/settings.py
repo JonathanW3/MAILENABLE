@@ -6,6 +6,7 @@ load_dotenv()
 ENVIRONMENT = os.getenv("ENVIRONMENT", "test").lower()
 TEST_EMAIL = os.getenv("TEST_EMAIL")
 MONITOR_EMAIL = os.getenv("MONITOR_EMAIL", "jalcoser@webpospanama.com")
+CONFIRMATION_EMAIL = os.getenv("CONFIRMATION_EMAIL")
 
 POP_SERVER = os.getenv('POP_SERVER', 'mail.webpossa.com')
 POP_PORT = int(os.getenv('POP_PORT', '110'))

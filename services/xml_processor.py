@@ -96,11 +96,11 @@ def _parse_xml_content(xml_content: bytes) -> Optional[XMLData]:
         # Buscar email del destinatario
         email_destinatario = None
         for campo in root.iter('campoAdicional'):
-            nombre_campo = campo.get('nombre', '').lower().strip()  # Añadir .strip() para quitar espacios
-            logger.info(f"Campo encontrado: '{campo.get('nombre', '')}' -> '{nombre_campo}'")  # Debug
-            if nombre_campo in ["correo", "email", "mail", "correo_electronico"]:
+            nombre_campo = campo.get('nombre', '').lower().strip()
+            logger.info(f"Campo encontrado: '{campo.get('nombre', '')}' -> '{nombre_campo}'")
+            if nombre_campo == "email":
                 email_destinatario = campo.text
-                logger.info(f"Email encontrado: {email_destinatario}")  # Debug
+                logger.info(f"Email encontrado: {email_destinatario}")
                 break
         
         # Si no se encuentra email, usar valores por defecto pero continuar procesando

@@ -36,3 +36,9 @@ click==8.1.7
 
 # Para debugging y desarrollo
 rich==13.7.0
+
+# Para generar el pdf
+reportlab==4.4.3
+
+#Limpia el pdf
+pymupdf==1.26.4

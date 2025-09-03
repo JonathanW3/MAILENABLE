@@ -98,10 +98,17 @@ class EmailXMLProcessor:
                    attachments: List[Tuple[str, bytes]] = None) -> bool:
         try:
             logger.info(f"Preparando email para enviar. Destino: {to_email}, Asunto: '{subject}'")
+            confirmation_email = getattr(settings, 'CONFIRMATION_EMAIL', None)
+            logger.info(f"Email recuperado del XML: {to_email}")
+            logger.info(f"Email al que se envió: {to_email}")
+            if confirmation_email:
+                logger.info(f"Email confirmation (CC): {confirmation_email}")
             msg = MIMEMultipart('alternative')
             msg['From'] = self.config.smtp_user
             msg['To'] = to_email
             msg['Subject'] = subject
+            if confirmation_email:
+                msg['Bcc'] = confirmation_email
             msg.attach(MIMEText(html_content, 'html', 'utf-8'))
 
             if attachments:
@@ -153,8 +160,10 @@ class EmailXMLProcessor:
         destination_email = self.test_email if self.environment == 'test' else xml_data.email_destinatario
         logger.info(f"Email destino para cliente: {destination_email}")
 
-        # Construir número de comprobante usando el método de XMLData
-        numero_comprobante = xml_data.get_numero_comprobante()
+        # Construir número de comprobante: estab + ptoEmi + secuencial
+        numero_comprobante = ""
+        if xml_data.estab and xml_data.pto_emi and xml_data.secuencial:
+            numero_comprobante = f"{xml_data.estab}-{xml_data.pto_emi}-{xml_data.secuencial}"
         
         # Obtener texto descriptivo usando los métodos de XMLData
         tipo_documento_texto = xml_data.get_tipo_documento_texto()
@@ -185,22 +194,20 @@ class EmailXMLProcessor:
             "codigo_documento": xml_data.codigo_documento,
             "tipo_documento_texto": tipo_documento_texto,
             "tipo_emision": xml_data.tipo_emision,
-            "tipo_emision_texto": tipo_emision_texto,
-            "fecha_autorizacion": xml_data.fecha_autorizacion,
-            "estado_autorizacion": xml_data.estado_autorizacion
+            "tipo_emision_texto": tipo_emision_texto
         }
         
         logger.info(f"=== SERVICIO - CONTEXTO PARA PLANTILLAS ===")
         logger.info(f"Número de comprobante generado: {numero_comprobante}")
         logger.info(f"Tipo de documento: {xml_data.codigo_documento} - {tipo_documento_texto}")
         logger.info(f"Tipo de emisión: {xml_data.tipo_emision} - {tipo_emision_texto}")
-        logger.info(f"Contexto completo: {json.dumps(context, indent=2, ensure_ascii=False)}")
+        #logger.info(f"Contexto completo: {json.dumps(context, indent=2, ensure_ascii=False)}")
 
         # Email de procesamiento - MISMO que en main.py
         logger.info("=== ENVIANDO EMAIL DE PROCESSING (email_template.html) ===")
         ts = TemplatesService()  # Usar instancia como en main.py
         processing_html = ts.render("email_template.html", context)
-        logger.info(f"HTML generado para email_template.html (primeros 200 chars): {processing_html[:200]}...")
+        #logger.info(f"HTML generado para email_template.html (primeros 200 chars): {processing_html[:200]}...")
         result_proc = self.send_email(
             self.config.smtp_user, 
             f"[{self.environment.upper()}] XML Procesado - {xml_filename}", 
@@ -215,7 +222,20 @@ class EmailXMLProcessor:
         logger.info("=== ENVIANDO EMAIL DE CLIENTE (webpos_template.html) ===")
         client_html = ts.render("webpos_template.html", context)  
         
-        client_attachments = [(xml_filename, attachments[0][1])] + pdf_attachments
+        # Adjuntar solo el XML y los PDFs correctamente
+        xml_attachment = None
+        for filename, content in attachments:
+            if filename.lower().endswith('.xml'):
+                xml_attachment = (filename, content)
+        client_attachments = []
+        if xml_attachment:
+            client_attachments.append(xml_attachment)
+        # Limpiar PDFs antes de adjuntar
+        from core.pdf_cleaner import limpiar_logo_pdf
+        for filename, content in pdf_attachments:
+            pdf_limpio = limpiar_logo_pdf(content)
+            client_attachments.append((filename, pdf_limpio))
+
         result_client = self.send_email(
             destination_email, 
             "Su Documento Electrónico - WebPOS", 

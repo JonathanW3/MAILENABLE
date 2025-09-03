@@ -1,109 +1,246 @@
-2025-09-01 22:54:17,824 - INFO - Servicio iniciado en modo: test
-2025-09-01 22:54:17,824 - INFO - Ejecutando servicio de monitoreo
-2025-09-01 22:54:17,824 - INFO - === INICIANDO SERVICIO - PROCESANDO EMAILS REALES ===
-2025-09-01 22:54:19,190 - INFO - Correos no leídos encontrados: 1
-2025-09-01 22:54:19,191 - INFO - Procesando email #1 de 1
-2025-09-01 22:54:19,191 - INFO - Procesando email de: webpos soporte <webpos.soporte@gmail.com>, Asunto: envio 3
-2025-09-01 22:54:19,194 - INFO - Encontrados 2 adjuntos
-2025-09-01 22:54:19,194 - INFO - Adjuntos encontrados: ['FACTURA_0708202501099284045500120010010000062191234567816.pdf', 'FACTURA_0708202501099284045500120010010000062191234567816_AUTORIZADO.xml']
-2025-09-01 22:54:19,222 - INFO - Procesando adjunto: FACTURA_0708202501099284045500120010010000062191234567816.pdf
-2025-09-01 22:54:19,225 - INFO - Procesando adjunto: FACTURA_0708202501099284045500120010010000062191234567816_AUTORIZADO.xml
-2025-09-01 22:54:19,225 - INFO - Contenido extraído del CDATA:
+2025-09-03 11:14:08,513 - INFO - Servicio iniciado en modo: test
+2025-09-03 11:14:08,513 - INFO - Ejecutando servicio de monitoreo
+2025-09-03 11:14:08,513 - INFO - === INICIANDO SERVICIO - PROCESANDO EMAILS REALES ===
+2025-09-03 11:14:10,603 - INFO - Correos no leídos encontrados: 1
+2025-09-03 11:14:10,603 - INFO - Procesando email #1 de 1
+2025-09-03 11:14:10,603 - INFO - Procesando email de: =?ISO-8859-1?Q?WEBPOS_S=2EA_Doc=2E_Electr=F3nico?=<edelivery@webpossa.com>, Asunto: =?ISO-8859-1?Q?Su_Documento_Electr=F3nico?=
+2025-09-03 11:14:10,603 - INFO - Procesando parte del email:
+2025-09-03 11:14:10,603 - INFO -   Content-Type: multipart/mixed
+2025-09-03 11:14:10,603 - INFO -   Content-Disposition: 
+2025-09-03 11:14:10,603 - INFO - Procesando parte del email:
+2025-09-03 11:14:10,603 - INFO -   Content-Type: multipart/related
+2025-09-03 11:14:10,603 - INFO -   Content-Disposition: 
+2025-09-03 11:14:10,603 - INFO - Procesando parte del email:
+2025-09-03 11:14:10,603 - INFO -   Content-Type: text/html
+2025-09-03 11:14:10,603 - INFO -   Content-Disposition: 
+2025-09-03 11:14:10,603 - INFO - Procesando parte del email:
+2025-09-03 11:14:10,603 - INFO -   Content-Type: image/png
+2025-09-03 11:14:10,603 - INFO -   Content-Disposition: 
+2025-09-03 11:14:10,603 - INFO - Procesando parte del email:
+2025-09-03 11:14:10,603 - INFO -   Content-Type: image/png
+2025-09-03 11:14:10,603 - INFO -   Content-Disposition: 
+2025-09-03 11:14:10,603 - INFO - Procesando parte del email:
+2025-09-03 11:14:10,614 - INFO -   Content-Type: image/png
+2025-09-03 11:14:10,614 - INFO -   Content-Disposition: 
+2025-09-03 11:14:10,614 - INFO - Procesando parte del email:
+2025-09-03 11:14:10,615 - INFO -   Content-Type: image/png
+2025-09-03 11:14:10,615 - INFO -   Content-Disposition: 
+2025-09-03 11:14:10,616 - INFO - Procesando parte del email:
+2025-09-03 11:14:10,616 - INFO -   Content-Type: image/png
+2025-09-03 11:14:10,616 - INFO -   Content-Disposition: 
+2025-09-03 11:14:10,617 - INFO - Procesando parte del email:
+2025-09-03 11:14:10,617 - INFO -   Content-Type: application/pdf
+2025-09-03 11:14:10,617 - INFO -   Content-Disposition: attachment;
+	filename="FACTURA_0209202501099284045500110010010000062671234567813.pdf"
+2025-09-03 11:14:10,619 - INFO -   Filename detectado: FACTURA_0209202501099284045500110010010000062671234567813.pdf
+2025-09-03 11:14:10,620 - INFO - ✅ Validación exitosa: FACTURA_0209202501099284045500110010010000062671234567813.pdf - Tipo detectado: PDF
+2025-09-03 11:14:10,620 - INFO - ✅ Adjunto extraído: FACTURA_0209202501099284045500110010010000062671234567813.pdf (38596 bytes)
+2025-09-03 11:14:10,620 - INFO - Procesando parte del email:
+2025-09-03 11:14:10,621 - INFO -   Content-Type: application/xml
+2025-09-03 11:14:10,621 - INFO -   Content-Disposition: attachment;
+	filename="FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml"
+2025-09-03 11:14:10,622 - INFO -   Filename detectado: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml
+2025-09-03 11:14:10,622 - INFO - ✅ Validación exitosa: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml - Tipo detectado: XML
+2025-09-03 11:14:10,622 - INFO - ✅ Adjunto extraído: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml (9994 bytes)
+2025-09-03 11:14:10,622 - INFO - 📎 Total de adjuntos extraídos: 2
+2025-09-03 11:14:10,624 - INFO -    - FACTURA_0209202501099284045500110010010000062671234567813.pdf: 38596 bytes, tipo detectado: PDF
+2025-09-03 11:14:10,624 - INFO -    - FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml: 9994 bytes, tipo detectado: XML
+2025-09-03 11:14:10,625 - INFO - Adjuntos encontrados: ['FACTURA_0209202501099284045500110010010000062671234567813.pdf', 'FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml']
+2025-09-03 11:14:10,627 - INFO - Procesando adjunto: FACTURA_0209202501099284045500110010010000062671234567813.pdf
+2025-09-03 11:14:10,627 - INFO - Procesando adjunto: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml
+2025-09-03 11:14:10,632 - INFO - Contenido extraído del CDATA:
 <?xml version="1.0" encoding="utf-8"?>
 <factura id="comprobante" version="1.1.0">
   <infoTributaria>
-    <ambiente>2</ambiente>
+    <ambiente>1</ambiente>
     <tipoEmision>1</tipoEmision>
     <razonSocial>WEBPOS S.A.</razonSocial>
     <nombreComercial>WEBPOS S.A</nombreComercial>
     <ruc>0992840455001</ruc>
-    <claveAcceso>0708202501099284045500120010010000062191234567816</claveAcceso>
+    <claveAcceso>0209202501099284045500110010010000062671234567813</claveAcceso>
     <codDoc>01</codDoc>
     <estab>001</estab>
     <ptoEmi>001</ptoEmi>
-    <secuencial>000006219</secuencial>
+    <secuencial>000006267</secuencial>
     <dirMatriz>Voz Andes 
-2025-09-01 22:54:19,227 - INFO - Campo encontrado: 'NOTA' -> 'nota'
-2025-09-01 22:54:19,229 - INFO - Campo encontrado: 'vendedor ' -> 'vendedor'
-2025-09-01 22:54:19,230 - INFO - Campo encontrado: 'correo ' -> 'correo'
-2025-09-01 22:54:19,230 - INFO - Email encontrado: acontable@casalinda.ec
-2025-09-01 22:54:19,230 - INFO - Clave de acceso: 0708202501099284045500120010010000062191234567816
-2025-09-01 22:54:19,231 - INFO - Total con impuestos: 113.85
-2025-09-01 22:54:19,231 - INFO - Razón social comprador: COMERCIAL CASALINDA S.A.
-2025-09-01 22:54:19,231 - INFO - Razón social: WEBPOS S.A.
-2025-09-01 22:54:19,231 - INFO - Fecha emisión: 07/08/2025
-2025-09-01 22:54:19,233 - INFO - Número factura/secuencial: 000006219
-2025-09-01 22:54:19,233 - INFO - Establecimiento: 001
-2025-09-01 22:54:19,233 - INFO - Punto de emisión: 001
-2025-09-01 22:54:19,234 - INFO - Código de documento: 01
-2025-09-01 22:54:19,234 - INFO - Tipo de emisión: 1
-2025-09-01 22:54:19,234 - INFO - === DATOS XML PROCESADOS EXITOSAMENTE ===
-2025-09-01 22:54:19,234 - INFO - Email destinatario: acontable@casalinda.ec
-2025-09-01 22:54:19,234 - INFO - Clave acceso: 0708202501099284045500120010010000062191234567816
-2025-09-01 22:54:19,234 - INFO - Total: 113.85
-2025-09-01 22:54:19,237 - INFO - Establecimiento: 001
-2025-09-01 22:54:19,237 - INFO - Punto emisión: 001
-2025-09-01 22:54:19,237 - INFO - Secuencial: 000006219
-2025-09-01 22:54:19,237 - INFO - Número autorización: 
-2025-09-01 22:54:19,238 - INFO - Código documento: 01
-2025-09-01 22:54:19,238 - INFO - Tipo emisión: 1
-2025-09-01 22:54:19,238 - INFO - Datos completos: {'email_destinatario': 'acontable@casalinda.ec', 'clave_acceso': '0708202501099284045500120010010000062191234567816', 'total_con_impuestos': '113.85', 'razon_social': 'WEBPOS S.A.', 'razon_social_comprador': 'COMERCIAL CASALINDA S.A.', 'fecha_emision': '07/08/2025', 'numero_factura': '000006219', 'estab': '001', 'pto_emi': '001', 'secuencial': '000006219', 'numero_autorizacion': '', 'codigo_documento': '01', 'tipo_emision': '1', 'fecha_autorizacion': '', 'estado_autorizacion': ''}
-2025-09-01 22:54:19,239 - INFO - Número de autorización (desde XML autorización): 0708202501099284045500120010010000062191234567816
-2025-09-01 22:54:19,240 - INFO - Fecha de autorización: 2025-08-07T12:20:36.000-05:00
-2025-09-01 22:54:19,240 - INFO - Estado autorización: AUTORIZADO
-2025-09-01 22:54:19,240 - INFO - Datos extraídos del XML: XMLData(email_destinatario='acontable@casalinda.ec', clave_acceso='0708202501099284045500120010010000062191234567816', total_con_impuestos='113.85', razon_social='WEBPOS S.A.', razon_social_comprador='COMERCIAL CASALINDA S.A.', fecha_emision='07/08/2025', numero_factura='000006219', estab='001', pto_emi='001', secuencial='000006219', numero_autorizacion='0708202501099284045500120010010000062191234567816', codigo_documento='01', tipo_emision='1', fecha_autorizacion='2025-08-07T12:20:36.000-05:00', estado_autorizacion='AUTORIZADO')
-2025-09-01 22:54:19,240 - INFO - Email destino para cliente: jalcoser@webpospanama.com
-2025-09-01 22:54:19,240 - INFO - === SERVICIO - CONTEXTO PARA PLANTILLAS ===
-2025-09-01 22:54:19,240 - INFO - Número de comprobante generado: 001-001-000006219
-2025-09-01 22:54:19,240 - INFO - Tipo de documento: 01 - Factura
-2025-09-01 22:54:19,242 - INFO - Tipo de emisión: 1 - Emisión Normal
-2025-09-01 22:54:19,242 - INFO - Contexto completo: {
-  "fecha_procesamiento": "01/09/2025 22:54:19",
+2025-09-03 11:14:10,634 - INFO - Campo encontrado: 'NOTA' -> 'nota'
+2025-09-03 11:14:10,635 - INFO - Campo encontrado: 'vendedor ' -> 'vendedor'
+2025-09-03 11:14:10,635 - INFO - Campo encontrado: 'correo ' -> 'correo'
+2025-09-03 11:14:10,636 - INFO - Campo encontrado: 'ciudad ' -> 'ciudad'
+2025-09-03 11:14:10,636 - INFO - Campo encontrado: 'Email' -> 'email'
+2025-09-03 11:14:10,636 - INFO - Email encontrado: Cmontaluisa@webposonline.net
+2025-09-03 11:14:10,636 - INFO - Clave de acceso: 0209202501099284045500110010010000062671234567813
+2025-09-03 11:14:10,636 - INFO - Total con impuestos: 1.15
+2025-09-03 11:14:10,636 - INFO - Razón social comprador: MONTALUISA BAÑO CARLOS ALBERTO
+2025-09-03 11:14:10,636 - INFO - Razón social: WEBPOS S.A.
+2025-09-03 11:14:10,636 - INFO - Fecha emisión: 02/09/2025
+2025-09-03 11:14:10,636 - INFO - Número factura/secuencial: 000006267
+2025-09-03 11:14:10,636 - INFO - Establecimiento: 001
+2025-09-03 11:14:10,641 - INFO - Punto de emisión: 001
+2025-09-03 11:14:10,641 - INFO - Código de documento: 01
+2025-09-03 11:14:10,642 - INFO - Tipo de emisión: 1
+2025-09-03 11:14:10,642 - INFO - === DATOS XML PROCESADOS EXITOSAMENTE ===
+2025-09-03 11:14:10,642 - INFO - Email destinatario: Cmontaluisa@webposonline.net
+2025-09-03 11:14:10,642 - INFO - Clave acceso: 0209202501099284045500110010010000062671234567813
+2025-09-03 11:14:10,642 - INFO - Total: 1.15
+2025-09-03 11:14:10,642 - INFO - Establecimiento: 001
+2025-09-03 11:14:10,642 - INFO - Punto emisión: 001
+2025-09-03 11:14:10,642 - INFO - Secuencial: 000006267
+2025-09-03 11:14:10,642 - INFO - Número autorización: 
+2025-09-03 11:14:10,642 - INFO - Código documento: 01
+2025-09-03 11:14:10,642 - INFO - Tipo emisión: 1
+2025-09-03 11:14:10,642 - INFO - Datos completos: {'email_destinatario': 'Cmontaluisa@webposonline.net', 'clave_acceso': '0209202501099284045500110010010000062671234567813', 'total_con_impuestos': '1.15', 'razon_social': 'WEBPOS S.A.', 'razon_social_comprador': 'MONTALUISA BAÑO CARLOS ALBERTO', 'fecha_emision': '02/09/2025', 'numero_factura': '000006267', 'estab': '001', 'pto_emi': '001', 'secuencial': '000006267', 'numero_autorizacion': '', 'codigo_documento': '01', 'tipo_emision': '1', 'fecha_autorizacion': '', 'estado_autorizacion': ''}
+2025-09-03 11:14:10,642 - INFO - Número de autorización (desde XML autorización): 0209202501099284045500110010010000062671234567813
+2025-09-03 11:14:10,642 - INFO - Fecha de autorización: 2025-09-02T12:10:28.000-05:00
+2025-09-03 11:14:10,642 - INFO - Estado autorización: AUTORIZADO
+2025-09-03 11:14:10,642 - INFO - Datos extraídos del XML: XMLData(email_destinatario='Cmontaluisa@webposonline.net', clave_acceso='0209202501099284045500110010010000062671234567813', total_con_impuestos='1.15', razon_social='WEBPOS S.A.', razon_social_comprador='MONTALUISA BAÑO CARLOS ALBERTO', fecha_emision='02/09/2025', numero_factura='000006267', estab='001', pto_emi='001', secuencial='000006267', numero_autorizacion='0209202501099284045500110010010000062671234567813', codigo_documento='01', tipo_emision='1', fecha_autorizacion='2025-09-02T12:10:28.000-05:00', estado_autorizacion='AUTORIZADO')
+2025-09-03 11:14:10,642 - INFO - Email destino para cliente: snaupa@webposonline.net,cmontaluisa@webposonline.net
+2025-09-03 11:15:48,243 - INFO - Servicio iniciado en modo: test
+2025-09-03 11:15:48,243 - INFO - Ejecutando servicio de monitoreo
+2025-09-03 11:15:48,243 - INFO - === INICIANDO SERVICIO - PROCESANDO EMAILS REALES ===
+2025-09-03 11:15:49,885 - INFO - Correos no leídos encontrados: 1
+2025-09-03 11:15:49,885 - INFO - Procesando email #1 de 1
+2025-09-03 11:15:49,885 - INFO - Procesando email de: =?ISO-8859-1?Q?WEBPOS_S=2EA_Doc=2E_Electr=F3nico?=<edelivery@webpossa.com>, Asunto: =?ISO-8859-1?Q?Su_Documento_Electr=F3nico?=
+2025-09-03 11:15:49,885 - INFO - Procesando parte del email:
+2025-09-03 11:15:49,885 - INFO -   Content-Type: multipart/mixed
+2025-09-03 11:15:49,885 - INFO -   Content-Disposition: 
+2025-09-03 11:15:49,885 - INFO - Procesando parte del email:
+2025-09-03 11:15:49,885 - INFO -   Content-Type: multipart/related
+2025-09-03 11:15:49,885 - INFO -   Content-Disposition: 
+2025-09-03 11:15:49,885 - INFO - Procesando parte del email:
+2025-09-03 11:15:49,885 - INFO -   Content-Type: text/html
+2025-09-03 11:15:49,885 - INFO -   Content-Disposition: 
+2025-09-03 11:15:49,885 - INFO - Procesando parte del email:
+2025-09-03 11:15:49,885 - INFO -   Content-Type: image/png
+2025-09-03 11:15:49,885 - INFO -   Content-Disposition: 
+2025-09-03 11:15:49,885 - INFO - Procesando parte del email:
+2025-09-03 11:15:49,885 - INFO -   Content-Type: image/png
+2025-09-03 11:15:49,885 - INFO -   Content-Disposition: 
+2025-09-03 11:15:49,885 - INFO - Procesando parte del email:
+2025-09-03 11:15:49,885 - INFO -   Content-Type: image/png
+2025-09-03 11:15:49,885 - INFO -   Content-Disposition: 
+2025-09-03 11:15:49,885 - INFO - Procesando parte del email:
+2025-09-03 11:15:49,885 - INFO -   Content-Type: image/png
+2025-09-03 11:15:49,885 - INFO -   Content-Disposition: 
+2025-09-03 11:15:49,885 - INFO - Procesando parte del email:
+2025-09-03 11:15:49,885 - INFO -   Content-Type: image/png
+2025-09-03 11:15:49,885 - INFO -   Content-Disposition: 
+2025-09-03 11:15:49,885 - INFO - Procesando parte del email:
+2025-09-03 11:15:49,885 - INFO -   Content-Type: application/pdf
+2025-09-03 11:15:49,885 - INFO -   Content-Disposition: attachment;
+	filename="FACTURA_0209202501099284045500110010010000062671234567813.pdf"
+2025-09-03 11:15:49,885 - INFO -   Filename detectado: FACTURA_0209202501099284045500110010010000062671234567813.pdf
+2025-09-03 11:15:49,885 - INFO - ✅ Validación exitosa: FACTURA_0209202501099284045500110010010000062671234567813.pdf - Tipo detectado: PDF
+2025-09-03 11:15:49,885 - INFO - ✅ Adjunto extraído: FACTURA_0209202501099284045500110010010000062671234567813.pdf (38596 bytes)
+2025-09-03 11:15:49,885 - INFO - Procesando parte del email:
+2025-09-03 11:15:49,885 - INFO -   Content-Type: application/xml
+2025-09-03 11:15:49,885 - INFO -   Content-Disposition: attachment;
+	filename="FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml"
+2025-09-03 11:15:49,885 - INFO -   Filename detectado: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml
+2025-09-03 11:15:49,885 - INFO - ✅ Validación exitosa: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml - Tipo detectado: XML
+2025-09-03 11:15:49,885 - INFO - ✅ Adjunto extraído: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml (9994 bytes)
+2025-09-03 11:15:49,885 - INFO - 📎 Total de adjuntos extraídos: 2
+2025-09-03 11:15:49,885 - INFO -    - FACTURA_0209202501099284045500110010010000062671234567813.pdf: 38596 bytes, tipo detectado: PDF
+2025-09-03 11:15:49,885 - INFO -    - FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml: 9994 bytes, tipo detectado: XML
+2025-09-03 11:15:49,885 - INFO - Adjuntos encontrados: ['FACTURA_0209202501099284045500110010010000062671234567813.pdf', 'FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml']
+2025-09-03 11:15:49,885 - INFO - Procesando adjunto: FACTURA_0209202501099284045500110010010000062671234567813.pdf
+2025-09-03 11:15:49,885 - INFO - Procesando adjunto: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml
+2025-09-03 11:15:49,892 - INFO - Contenido extraído del CDATA:
+<?xml version="1.0" encoding="utf-8"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>1</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>WEBPOS S.A.</razonSocial>
+    <nombreComercial>WEBPOS S.A</nombreComercial>
+    <ruc>0992840455001</ruc>
+    <claveAcceso>0209202501099284045500110010010000062671234567813</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>000006267</secuencial>
+    <dirMatriz>Voz Andes 
+2025-09-03 11:15:49,893 - INFO - Campo encontrado: 'NOTA' -> 'nota'
+2025-09-03 11:15:49,893 - INFO - Campo encontrado: 'vendedor ' -> 'vendedor'
+2025-09-03 11:15:49,893 - INFO - Campo encontrado: 'correo ' -> 'correo'
+2025-09-03 11:15:49,893 - INFO - Campo encontrado: 'ciudad ' -> 'ciudad'
+2025-09-03 11:15:49,893 - INFO - Campo encontrado: 'Email' -> 'email'
+2025-09-03 11:15:49,893 - INFO - Email encontrado: Cmontaluisa@webposonline.net
+2025-09-03 11:15:49,893 - INFO - Clave de acceso: 0209202501099284045500110010010000062671234567813
+2025-09-03 11:15:49,893 - INFO - Total con impuestos: 1.15
+2025-09-03 11:15:49,893 - INFO - Razón social comprador: MONTALUISA BAÑO CARLOS ALBERTO
+2025-09-03 11:15:49,893 - INFO - Razón social: WEBPOS S.A.
+2025-09-03 11:15:49,893 - INFO - Fecha emisión: 02/09/2025
+2025-09-03 11:15:49,893 - INFO - Número factura/secuencial: 000006267
+2025-09-03 11:15:49,893 - INFO - Establecimiento: 001
+2025-09-03 11:15:49,893 - INFO - Punto de emisión: 001
+2025-09-03 11:15:49,893 - INFO - Código de documento: 01
+2025-09-03 11:15:49,893 - INFO - Tipo de emisión: 1
+2025-09-03 11:15:49,893 - INFO - === DATOS XML PROCESADOS EXITOSAMENTE ===
+2025-09-03 11:15:49,893 - INFO - Email destinatario: Cmontaluisa@webposonline.net
+2025-09-03 11:15:49,893 - INFO - Clave acceso: 0209202501099284045500110010010000062671234567813
+2025-09-03 11:15:49,893 - INFO - Total: 1.15
+2025-09-03 11:15:49,893 - INFO - Establecimiento: 001
+2025-09-03 11:15:49,893 - INFO - Punto emisión: 001
+2025-09-03 11:15:49,893 - INFO - Secuencial: 000006267
+2025-09-03 11:15:49,893 - INFO - Número autorización: 
+2025-09-03 11:15:49,893 - INFO - Código documento: 01
+2025-09-03 11:15:49,893 - INFO - Tipo emisión: 1
+2025-09-03 11:15:49,893 - INFO - Datos completos: {'email_destinatario': 'Cmontaluisa@webposonline.net', 'clave_acceso': '0209202501099284045500110010010000062671234567813', 'total_con_impuestos': '1.15', 'razon_social': 'WEBPOS S.A.', 'razon_social_comprador': 'MONTALUISA BAÑO CARLOS ALBERTO', 'fecha_emision': '02/09/2025', 'numero_factura': '000006267', 'estab': '001', 'pto_emi': '001', 'secuencial': '000006267', 'numero_autorizacion': '', 'codigo_documento': '01', 'tipo_emision': '1', 'fecha_autorizacion': '', 'estado_autorizacion': ''}
+2025-09-03 11:15:49,893 - INFO - Número de autorización (desde XML autorización): 0209202501099284045500110010010000062671234567813
+2025-09-03 11:15:49,893 - INFO - Fecha de autorización: 2025-09-02T12:10:28.000-05:00
+2025-09-03 11:15:49,893 - INFO - Estado autorización: AUTORIZADO
+2025-09-03 11:15:49,893 - INFO - Datos extraídos del XML: XMLData(email_destinatario='Cmontaluisa@webposonline.net', clave_acceso='0209202501099284045500110010010000062671234567813', total_con_impuestos='1.15', razon_social='WEBPOS S.A.', razon_social_comprador='MONTALUISA BAÑO CARLOS ALBERTO', fecha_emision='02/09/2025', numero_factura='000006267', estab='001', pto_emi='001', secuencial='000006267', numero_autorizacion='0209202501099284045500110010010000062671234567813', codigo_documento='01', tipo_emision='1', fecha_autorizacion='2025-09-02T12:10:28.000-05:00', estado_autorizacion='AUTORIZADO')
+2025-09-03 11:15:49,893 - INFO - Email destino para cliente: jalcoser@webpospanama.com
+2025-09-03 11:15:49,893 - INFO - === SERVICIO - CONTEXTO PARA PLANTILLAS ===
+2025-09-03 11:15:49,893 - INFO - Número de comprobante generado: 001-001-000006267
+2025-09-03 11:15:49,893 - INFO - Tipo de documento: 01 - Factura
+2025-09-03 11:15:49,893 - INFO - Tipo de emisión: 1 - Emisión Normal
+2025-09-03 11:15:49,893 - INFO - Contexto completo: {
+  "fecha_procesamiento": "03/09/2025 11:15:49",
   "entorno": "test",
-  "email_origen": "webpos soporte <webpos.soporte@gmail.com>",
-  "asunto_original": "envio 3",
-  "xml_filename": "FACTURA_0708202501099284045500120010010000062191234567816_AUTORIZADO.xml",
-  "email_extraido": "acontable@casalinda.ec",
-  "clave_acceso": "0708202501099284045500120010010000062191234567816",
-  "total_con_impuestos": "113.85",
-  "razon_social": "COMERCIAL CASALINDA S.A.",
-  "fecha_emision": "07/08/2025",
-  "numero_factura": "000006219",
+  "email_origen": "=?ISO-8859-1?Q?WEBPOS_S=2EA_Doc=2E_Electr=F3nico?=<edelivery@webpossa.com>",
+  "asunto_original": "=?ISO-8859-1?Q?Su_Documento_Electr=F3nico?=",
+  "xml_filename": "FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml",
+  "email_extraido": "Cmontaluisa@webposonline.net",
+  "clave_acceso": "0209202501099284045500110010010000062671234567813",
+  "total_con_impuestos": "1.15",
+  "razon_social": "MONTALUISA BAÑO CARLOS ALBERTO",
+  "fecha_emision": "02/09/2025",
+  "numero_factura": "000006267",
   "adjuntos_procesados": [
-    "FACTURA_0708202501099284045500120010010000062191234567816.pdf",
-    "FACTURA_0708202501099284045500120010010000062191234567816_AUTORIZADO.xml"
+    "FACTURA_0209202501099284045500110010010000062671234567813.pdf",
+    "FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml"
   ],
   "xml_data": {
-    "email_destinatario": "acontable@casalinda.ec",
-    "clave_acceso": "0708202501099284045500120010010000062191234567816",
-    "total_con_impuestos": "113.85",
+    "email_destinatario": "Cmontaluisa@webposonline.net",
+    "clave_acceso": "0209202501099284045500110010010000062671234567813",
+    "total_con_impuestos": "1.15",
     "razon_social": "WEBPOS S.A.",
-    "razon_social_comprador": "COMERCIAL CASALINDA S.A.",
-    "fecha_emision": "07/08/2025",
-    "numero_factura": "000006219",
+    "razon_social_comprador": "MONTALUISA BAÑO CARLOS ALBERTO",
+    "fecha_emision": "02/09/2025",
+    "numero_factura": "000006267",
     "estab": "001",
     "pto_emi": "001",
-    "secuencial": "000006219",
-    "numero_autorizacion": "0708202501099284045500120010010000062191234567816",
+    "secuencial": "000006267",
+    "numero_autorizacion": "0209202501099284045500110010010000062671234567813",
     "codigo_documento": "01",
     "tipo_emision": "1",
-    "fecha_autorizacion": "2025-08-07T12:20:36.000-05:00",
+    "fecha_autorizacion": "2025-09-02T12:10:28.000-05:00",
     "estado_autorizacion": "AUTORIZADO"
   },
-  "numero_comprobante": "001-001-000006219",
-  "numero_autorizacion": "0708202501099284045500120010010000062191234567816",
+  "numero_comprobante": "001-001-000006267",
+  "numero_autorizacion": "0209202501099284045500110010010000062671234567813",
   "estab": "001",
   "pto_emi": "001",
-  "secuencial": "000006219",
+  "secuencial": "000006267",
   "codigo_documento": "01",
   "tipo_documento_texto": "Factura",
   "tipo_emision": "1",
-  "tipo_emision_texto": "Emisión Normal",
-  "fecha_autorizacion": "2025-08-07T12:20:36.000-05:00",
-  "estado_autorizacion": "AUTORIZADO"
+  "tipo_emision_texto": "Emisión Normal"
 }
-2025-09-01 22:54:19,242 - INFO - === ENVIANDO EMAIL DE PROCESSING (email_template.html) ===
-2025-09-01 22:54:19,257 - INFO - HTML generado para email_template.html (primeros 200 chars): <!DOCTYPE html>
+2025-09-03 11:15:49,893 - INFO - === ENVIANDO EMAIL DE PROCESSING (email_template.html) ===
+2025-09-03 11:15:49,901 - INFO - HTML generado para email_template.html (primeros 200 chars): <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -112,21 +249,1378 @@
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   ...
-2025-09-01 22:54:19,257 - INFO - Preparando email para enviar. Destino: edelivery@webpossa.com, Asunto: '[TEST] XML Procesado - FACTURA_0708202501099284045500120010010000062191234567816_AUTORIZADO.xml'
-2025-09-01 22:54:20,517 - INFO - Email enviado exitosamente a: edelivery@webpossa.com
-2025-09-01 22:54:20,517 - INFO - Email de procesamiento enviado correctamente a edelivery@webpossa.com
-2025-09-01 22:54:20,517 - INFO - === ENVIANDO EMAIL DE CLIENTE (webpos_template.html) ===
-2025-09-01 22:54:20,658 - INFO - Preparando email para enviar. Destino: jalcoser@webpospanama.com, Asunto: 'Su Documento Electrónico - WebPOS'
-2025-09-01 22:54:22,164 - INFO - Email enviado exitosamente a: jalcoser@webpospanama.com
-2025-09-01 22:54:22,164 - INFO - Email de cliente enviado correctamente a jalcoser@webpospanama.com
-2025-09-01 22:57:01,009 - INFO - Servicio iniciado en modo: test
-2025-09-01 22:57:01,024 - INFO - === INICIANDO MODO MONITOR - Buscando email específico ===
-2025-09-01 22:57:01,024 - INFO - Conectando al buzón para buscar email específico...
-2025-09-01 22:57:02,419 - INFO - Total de emails en buzón: 1
-2025-09-01 22:57:02,419 - WARNING - ❌ No se encontró ningún email que coincida con los criterios
-2025-09-01 22:57:02,419 - INFO - 📤 ENVIANDO REPORTE DE MONITOR
-2025-09-01 22:57:02,419 - INFO - 📧 Destino: jalcoser@webpospanama.com
-2025-09-01 22:57:02,433 - INFO - Preparando email para enviar. Destino: jalcoser@webpospanama.com, Asunto: '[TEST] MONITOR - Email Específico Procesado'
-2025-09-01 22:57:03,651 - INFO - Email enviado exitosamente a: jalcoser@webpospanama.com
-2025-09-01 22:57:03,651 - INFO - ✅ Reporte de monitor enviado exitosamente a jalcoser@webpospanama.com
-2025-09-01 22:57:03,651 - INFO - 📋 RESUMEN: Email no encontrado con criterios: asunto: 'envio 8'
+2025-09-03 11:15:49,909 - INFO - Preparando email para enviar. Destino: edelivery@webpossa.com, Asunto: '[TEST] XML Procesado - FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml'
+2025-09-03 11:16:10,965 - ERROR - Error enviando email a edelivery@webpossa.com: [WinError 10060] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder
+2025-09-03 11:16:10,965 - ERROR - Error al enviar email de procesamiento a edelivery@webpossa.com
+2025-09-03 11:16:10,965 - INFO - === ENVIANDO EMAIL DE CLIENTE (webpos_template.html) ===
+2025-09-03 11:16:10,986 - INFO - Preparando email para enviar. Destino: jalcoser@webpospanama.com, Asunto: 'Su Documento Electrónico - WebPOS'
+2025-09-03 11:16:32,021 - ERROR - Error enviando email a jalcoser@webpospanama.com: [WinError 10060] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder
+2025-09-03 11:16:32,021 - ERROR - Error al enviar email de cliente a jalcoser@webpospanama.com
+2025-09-03 11:17:12,761 - INFO - Servicio iniciado en modo: test
+2025-09-03 11:17:12,761 - INFO - Ejecutando servicio de monitoreo
+2025-09-03 11:17:12,761 - INFO - === INICIANDO SERVICIO - PROCESANDO EMAILS REALES ===
+2025-09-03 11:17:15,071 - INFO - Correos no leídos encontrados: 1
+2025-09-03 11:17:15,071 - INFO - Procesando email #1 de 1
+2025-09-03 11:17:15,071 - INFO - Procesando email de: =?ISO-8859-1?Q?WEBPOS_S=2EA_Doc=2E_Electr=F3nico?=<edelivery@webpossa.com>, Asunto: =?ISO-8859-1?Q?Su_Documento_Electr=F3nico?=
+2025-09-03 11:17:15,071 - INFO - Procesando parte del email:
+2025-09-03 11:17:15,071 - INFO -   Content-Type: multipart/mixed
+2025-09-03 11:17:15,071 - INFO -   Content-Disposition: 
+2025-09-03 11:17:15,071 - INFO - Procesando parte del email:
+2025-09-03 11:17:15,071 - INFO -   Content-Type: multipart/related
+2025-09-03 11:17:15,071 - INFO -   Content-Disposition: 
+2025-09-03 11:17:15,071 - INFO - Procesando parte del email:
+2025-09-03 11:17:15,071 - INFO -   Content-Type: text/html
+2025-09-03 11:17:15,071 - INFO -   Content-Disposition: 
+2025-09-03 11:17:15,071 - INFO - Procesando parte del email:
+2025-09-03 11:17:15,071 - INFO -   Content-Type: image/png
+2025-09-03 11:17:15,071 - INFO -   Content-Disposition: 
+2025-09-03 11:17:15,071 - INFO - Procesando parte del email:
+2025-09-03 11:17:15,071 - INFO -   Content-Type: image/png
+2025-09-03 11:17:15,071 - INFO -   Content-Disposition: 
+2025-09-03 11:17:15,082 - INFO - Procesando parte del email:
+2025-09-03 11:17:15,082 - INFO -   Content-Type: image/png
+2025-09-03 11:17:15,083 - INFO -   Content-Disposition: 
+2025-09-03 11:17:15,083 - INFO - Procesando parte del email:
+2025-09-03 11:17:15,083 - INFO -   Content-Type: image/png
+2025-09-03 11:17:15,084 - INFO -   Content-Disposition: 
+2025-09-03 11:17:15,084 - INFO - Procesando parte del email:
+2025-09-03 11:17:15,085 - INFO -   Content-Type: image/png
+2025-09-03 11:17:15,085 - INFO -   Content-Disposition: 
+2025-09-03 11:17:15,086 - INFO - Procesando parte del email:
+2025-09-03 11:17:15,086 - INFO -   Content-Type: application/pdf
+2025-09-03 11:17:15,086 - INFO -   Content-Disposition: attachment;
+	filename="FACTURA_0209202501099284045500110010010000062671234567813.pdf"
+2025-09-03 11:17:15,087 - INFO -   Filename detectado: FACTURA_0209202501099284045500110010010000062671234567813.pdf
+2025-09-03 11:17:15,088 - INFO - ✅ Validación exitosa: FACTURA_0209202501099284045500110010010000062671234567813.pdf - Tipo detectado: PDF
+2025-09-03 11:17:15,088 - INFO - ✅ Adjunto extraído: FACTURA_0209202501099284045500110010010000062671234567813.pdf (38596 bytes)
+2025-09-03 11:17:15,088 - INFO - Procesando parte del email:
+2025-09-03 11:17:15,088 - INFO -   Content-Type: application/xml
+2025-09-03 11:17:15,088 - INFO -   Content-Disposition: attachment;
+	filename="FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml"
+2025-09-03 11:17:15,091 - INFO -   Filename detectado: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml
+2025-09-03 11:17:15,092 - INFO - ✅ Validación exitosa: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml - Tipo detectado: XML
+2025-09-03 11:17:15,093 - INFO - ✅ Adjunto extraído: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml (9994 bytes)
+2025-09-03 11:17:15,094 - INFO - 📎 Total de adjuntos extraídos: 2
+2025-09-03 11:17:15,095 - INFO -    - FACTURA_0209202501099284045500110010010000062671234567813.pdf: 38596 bytes, tipo detectado: PDF
+2025-09-03 11:17:15,095 - INFO -    - FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml: 9994 bytes, tipo detectado: XML
+2025-09-03 11:17:15,096 - INFO - Adjuntos encontrados: ['FACTURA_0209202501099284045500110010010000062671234567813.pdf', 'FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml']
+2025-09-03 11:17:15,096 - INFO - Procesando adjunto: FACTURA_0209202501099284045500110010010000062671234567813.pdf
+2025-09-03 11:17:15,096 - INFO - Procesando adjunto: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml
+2025-09-03 11:17:15,099 - INFO - Contenido extraído del CDATA:
+<?xml version="1.0" encoding="utf-8"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>1</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>WEBPOS S.A.</razonSocial>
+    <nombreComercial>WEBPOS S.A</nombreComercial>
+    <ruc>0992840455001</ruc>
+    <claveAcceso>0209202501099284045500110010010000062671234567813</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>000006267</secuencial>
+    <dirMatriz>Voz Andes 
+2025-09-03 11:17:15,100 - INFO - Campo encontrado: 'NOTA' -> 'nota'
+2025-09-03 11:17:15,100 - INFO - Campo encontrado: 'vendedor ' -> 'vendedor'
+2025-09-03 11:17:15,101 - INFO - Campo encontrado: 'correo ' -> 'correo'
+2025-09-03 11:17:15,101 - INFO - Campo encontrado: 'ciudad ' -> 'ciudad'
+2025-09-03 11:17:15,101 - INFO - Campo encontrado: 'Email' -> 'email'
+2025-09-03 11:17:15,101 - INFO - Email encontrado: Cmontaluisa@webposonline.net
+2025-09-03 11:17:15,102 - INFO - Clave de acceso: 0209202501099284045500110010010000062671234567813
+2025-09-03 11:17:15,102 - INFO - Total con impuestos: 1.15
+2025-09-03 11:17:15,102 - INFO - Razón social comprador: MONTALUISA BAÑO CARLOS ALBERTO
+2025-09-03 11:17:15,103 - INFO - Razón social: WEBPOS S.A.
+2025-09-03 11:17:15,103 - INFO - Fecha emisión: 02/09/2025
+2025-09-03 11:17:15,104 - INFO - Número factura/secuencial: 000006267
+2025-09-03 11:17:15,104 - INFO - Establecimiento: 001
+2025-09-03 11:17:15,104 - INFO - Punto de emisión: 001
+2025-09-03 11:17:15,104 - INFO - Código de documento: 01
+2025-09-03 11:17:15,104 - INFO - Tipo de emisión: 1
+2025-09-03 11:17:15,104 - INFO - === DATOS XML PROCESADOS EXITOSAMENTE ===
+2025-09-03 11:17:15,104 - INFO - Email destinatario: Cmontaluisa@webposonline.net
+2025-09-03 11:17:15,104 - INFO - Clave acceso: 0209202501099284045500110010010000062671234567813
+2025-09-03 11:17:15,104 - INFO - Total: 1.15
+2025-09-03 11:17:15,104 - INFO - Establecimiento: 001
+2025-09-03 11:17:15,104 - INFO - Punto emisión: 001
+2025-09-03 11:17:15,104 - INFO - Secuencial: 000006267
+2025-09-03 11:17:15,104 - INFO - Número autorización: 
+2025-09-03 11:17:15,104 - INFO - Código documento: 01
+2025-09-03 11:17:15,104 - INFO - Tipo emisión: 1
+2025-09-03 11:17:15,104 - INFO - Datos completos: {'email_destinatario': 'Cmontaluisa@webposonline.net', 'clave_acceso': '0209202501099284045500110010010000062671234567813', 'total_con_impuestos': '1.15', 'razon_social': 'WEBPOS S.A.', 'razon_social_comprador': 'MONTALUISA BAÑO CARLOS ALBERTO', 'fecha_emision': '02/09/2025', 'numero_factura': '000006267', 'estab': '001', 'pto_emi': '001', 'secuencial': '000006267', 'numero_autorizacion': '', 'codigo_documento': '01', 'tipo_emision': '1', 'fecha_autorizacion': '', 'estado_autorizacion': ''}
+2025-09-03 11:17:15,104 - INFO - Número de autorización (desde XML autorización): 0209202501099284045500110010010000062671234567813
+2025-09-03 11:17:15,104 - INFO - Fecha de autorización: 2025-09-02T12:10:28.000-05:00
+2025-09-03 11:17:15,104 - INFO - Estado autorización: AUTORIZADO
+2025-09-03 11:17:15,104 - INFO - Datos extraídos del XML: XMLData(email_destinatario='Cmontaluisa@webposonline.net', clave_acceso='0209202501099284045500110010010000062671234567813', total_con_impuestos='1.15', razon_social='WEBPOS S.A.', razon_social_comprador='MONTALUISA BAÑO CARLOS ALBERTO', fecha_emision='02/09/2025', numero_factura='000006267', estab='001', pto_emi='001', secuencial='000006267', numero_autorizacion='0209202501099284045500110010010000062671234567813', codigo_documento='01', tipo_emision='1', fecha_autorizacion='2025-09-02T12:10:28.000-05:00', estado_autorizacion='AUTORIZADO')
+2025-09-03 11:17:15,104 - INFO - Email destino para cliente: jalcoser@webpospanama.com
+2025-09-03 11:17:15,104 - INFO - === SERVICIO - CONTEXTO PARA PLANTILLAS ===
+2025-09-03 11:17:15,104 - INFO - Número de comprobante generado: 001-001-000006267
+2025-09-03 11:17:15,104 - INFO - Tipo de documento: 01 - Factura
+2025-09-03 11:17:15,104 - INFO - Tipo de emisión: 1 - Emisión Normal
+2025-09-03 11:17:15,104 - INFO - Contexto completo: {
+  "fecha_procesamiento": "03/09/2025 11:17:15",
+  "entorno": "test",
+  "email_origen": "=?ISO-8859-1?Q?WEBPOS_S=2EA_Doc=2E_Electr=F3nico?=<edelivery@webpossa.com>",
+  "asunto_original": "=?ISO-8859-1?Q?Su_Documento_Electr=F3nico?=",
+  "xml_filename": "FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml",
+  "email_extraido": "Cmontaluisa@webposonline.net",
+  "clave_acceso": "0209202501099284045500110010010000062671234567813",
+  "total_con_impuestos": "1.15",
+  "razon_social": "MONTALUISA BAÑO CARLOS ALBERTO",
+  "fecha_emision": "02/09/2025",
+  "numero_factura": "000006267",
+  "adjuntos_procesados": [
+    "FACTURA_0209202501099284045500110010010000062671234567813.pdf",
+    "FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml"
+  ],
+  "xml_data": {
+    "email_destinatario": "Cmontaluisa@webposonline.net",
+    "clave_acceso": "0209202501099284045500110010010000062671234567813",
+    "total_con_impuestos": "1.15",
+    "razon_social": "WEBPOS S.A.",
+    "razon_social_comprador": "MONTALUISA BAÑO CARLOS ALBERTO",
+    "fecha_emision": "02/09/2025",
+    "numero_factura": "000006267",
+    "estab": "001",
+    "pto_emi": "001",
+    "secuencial": "000006267",
+    "numero_autorizacion": "0209202501099284045500110010010000062671234567813",
+    "codigo_documento": "01",
+    "tipo_emision": "1",
+    "fecha_autorizacion": "2025-09-02T12:10:28.000-05:00",
+    "estado_autorizacion": "AUTORIZADO"
+  },
+  "numero_comprobante": "001-001-000006267",
+  "numero_autorizacion": "0209202501099284045500110010010000062671234567813",
+  "estab": "001",
+  "pto_emi": "001",
+  "secuencial": "000006267",
+  "codigo_documento": "01",
+  "tipo_documento_texto": "Factura",
+  "tipo_emision": "1",
+  "tipo_emision_texto": "Emisión Normal"
+}
+2025-09-03 11:17:15,104 - INFO - === ENVIANDO EMAIL DE PROCESSING (email_template.html) ===
+2025-09-03 11:17:15,119 - INFO - HTML generado para email_template.html (primeros 200 chars): <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Procesamiento de XML</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  ...
+2025-09-03 11:17:15,119 - INFO - Preparando email para enviar. Destino: edelivery@webpossa.com, Asunto: '[TEST] XML Procesado - FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml'
+2025-09-03 11:17:18,113 - INFO - Email enviado exitosamente a: edelivery@webpossa.com
+2025-09-03 11:17:18,113 - INFO - Email de procesamiento enviado correctamente a edelivery@webpossa.com
+2025-09-03 11:17:18,113 - INFO - === ENVIANDO EMAIL DE CLIENTE (webpos_template.html) ===
+2025-09-03 11:17:18,128 - INFO - Preparando email para enviar. Destino: jalcoser@webpospanama.com, Asunto: 'Su Documento Electrónico - WebPOS'
+2025-09-03 11:17:21,566 - INFO - Email enviado exitosamente a: jalcoser@webpospanama.com
+2025-09-03 11:17:21,566 - INFO - Email de cliente enviado correctamente a jalcoser@webpospanama.com
+2025-09-03 11:44:02,353 - INFO - Servicio iniciado en modo: test
+2025-09-03 11:44:02,353 - INFO - Ejecutando servicio de monitoreo
+2025-09-03 11:44:02,353 - INFO - === INICIANDO SERVICIO - PROCESANDO EMAILS REALES ===
+2025-09-03 11:44:04,545 - INFO - Correos no leídos encontrados: 1
+2025-09-03 11:44:04,545 - INFO - Procesando email #1 de 1
+2025-09-03 11:44:04,545 - INFO - Procesando email de: =?ISO-8859-1?Q?WEBPOS_S=2EA_Doc=2E_Electr=F3nico?=<edelivery@webpossa.com>, Asunto: =?ISO-8859-1?Q?Su_Documento_Electr=F3nico?=
+2025-09-03 11:44:04,545 - INFO - Procesando parte del email:
+2025-09-03 11:44:04,545 - INFO -   Content-Type: multipart/mixed
+2025-09-03 11:44:04,545 - INFO -   Content-Disposition: 
+2025-09-03 11:44:04,545 - INFO - Procesando parte del email:
+2025-09-03 11:44:04,545 - INFO -   Content-Type: multipart/related
+2025-09-03 11:44:04,545 - INFO -   Content-Disposition: 
+2025-09-03 11:44:04,545 - INFO - Procesando parte del email:
+2025-09-03 11:44:04,545 - INFO -   Content-Type: text/html
+2025-09-03 11:44:04,545 - INFO -   Content-Disposition: 
+2025-09-03 11:44:04,545 - INFO - Procesando parte del email:
+2025-09-03 11:44:04,545 - INFO -   Content-Type: image/png
+2025-09-03 11:44:04,545 - INFO -   Content-Disposition: 
+2025-09-03 11:44:04,554 - INFO - Procesando parte del email:
+2025-09-03 11:44:04,554 - INFO -   Content-Type: image/png
+2025-09-03 11:44:04,554 - INFO -   Content-Disposition: 
+2025-09-03 11:44:04,555 - INFO - Procesando parte del email:
+2025-09-03 11:44:04,555 - INFO -   Content-Type: image/png
+2025-09-03 11:44:04,555 - INFO -   Content-Disposition: 
+2025-09-03 11:44:04,556 - INFO - Procesando parte del email:
+2025-09-03 11:44:04,556 - INFO -   Content-Type: image/png
+2025-09-03 11:44:04,557 - INFO -   Content-Disposition: 
+2025-09-03 11:44:04,557 - INFO - Procesando parte del email:
+2025-09-03 11:44:04,558 - INFO -   Content-Type: image/png
+2025-09-03 11:44:04,559 - INFO -   Content-Disposition: 
+2025-09-03 11:44:04,559 - INFO - Procesando parte del email:
+2025-09-03 11:44:04,560 - INFO -   Content-Type: application/pdf
+2025-09-03 11:44:04,561 - INFO -   Content-Disposition: attachment;
+	filename="FACTURA_0209202501099284045500110010010000062671234567813.pdf"
+2025-09-03 11:44:04,561 - INFO -   Filename detectado: FACTURA_0209202501099284045500110010010000062671234567813.pdf
+2025-09-03 11:44:04,564 - INFO - ✅ Validación exitosa: FACTURA_0209202501099284045500110010010000062671234567813.pdf - Tipo detectado: PDF
+2025-09-03 11:44:04,565 - INFO - ✅ Adjunto extraído: FACTURA_0209202501099284045500110010010000062671234567813.pdf (38596 bytes)
+2025-09-03 11:44:04,566 - INFO - Procesando parte del email:
+2025-09-03 11:44:04,566 - INFO -   Content-Type: application/xml
+2025-09-03 11:44:04,566 - INFO -   Content-Disposition: attachment;
+	filename="FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml"
+2025-09-03 11:44:04,566 - INFO -   Filename detectado: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml
+2025-09-03 11:44:04,566 - INFO - ✅ Validación exitosa: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml - Tipo detectado: XML
+2025-09-03 11:44:04,569 - INFO - ✅ Adjunto extraído: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml (9994 bytes)
+2025-09-03 11:44:04,569 - INFO - 📎 Total de adjuntos extraídos: 2
+2025-09-03 11:44:04,570 - INFO -    - FACTURA_0209202501099284045500110010010000062671234567813.pdf: 38596 bytes, tipo detectado: PDF
+2025-09-03 11:44:04,571 - INFO -    - FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml: 9994 bytes, tipo detectado: XML
+2025-09-03 11:44:04,571 - INFO - Adjuntos encontrados: ['FACTURA_0209202501099284045500110010010000062671234567813.pdf', 'FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml']
+2025-09-03 11:44:04,571 - INFO - Procesando adjunto: FACTURA_0209202501099284045500110010010000062671234567813.pdf
+2025-09-03 11:44:04,571 - INFO - Procesando adjunto: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml
+2025-09-03 11:44:04,578 - INFO - Contenido extraído del CDATA:
+<?xml version="1.0" encoding="utf-8"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>1</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>WEBPOS S.A.</razonSocial>
+    <nombreComercial>WEBPOS S.A</nombreComercial>
+    <ruc>0992840455001</ruc>
+    <claveAcceso>0209202501099284045500110010010000062671234567813</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>000006267</secuencial>
+    <dirMatriz>Voz Andes 
+2025-09-03 11:44:04,579 - INFO - Campo encontrado: 'NOTA' -> 'nota'
+2025-09-03 11:44:04,579 - INFO - Campo encontrado: 'vendedor ' -> 'vendedor'
+2025-09-03 11:44:04,579 - INFO - Campo encontrado: 'correo ' -> 'correo'
+2025-09-03 11:44:04,580 - INFO - Campo encontrado: 'ciudad ' -> 'ciudad'
+2025-09-03 11:44:04,580 - INFO - Campo encontrado: 'Email' -> 'email'
+2025-09-03 11:44:04,580 - INFO - Email encontrado: Cmontaluisa@webposonline.net
+2025-09-03 11:44:04,580 - INFO - Clave de acceso: 0209202501099284045500110010010000062671234567813
+2025-09-03 11:44:04,580 - INFO - Total con impuestos: 1.15
+2025-09-03 11:44:04,580 - INFO - Razón social comprador: MONTALUISA BAÑO CARLOS ALBERTO
+2025-09-03 11:44:04,582 - INFO - Razón social: WEBPOS S.A.
+2025-09-03 11:44:04,583 - INFO - Fecha emisión: 02/09/2025
+2025-09-03 11:44:04,583 - INFO - Número factura/secuencial: 000006267
+2025-09-03 11:44:04,583 - INFO - Establecimiento: 001
+2025-09-03 11:44:04,583 - INFO - Punto de emisión: 001
+2025-09-03 11:44:04,584 - INFO - Código de documento: 01
+2025-09-03 11:44:04,584 - INFO - Tipo de emisión: 1
+2025-09-03 11:44:04,584 - INFO - === DATOS XML PROCESADOS EXITOSAMENTE ===
+2025-09-03 11:44:04,584 - INFO - Email destinatario: Cmontaluisa@webposonline.net
+2025-09-03 11:44:04,585 - INFO - Clave acceso: 0209202501099284045500110010010000062671234567813
+2025-09-03 11:44:04,585 - INFO - Total: 1.15
+2025-09-03 11:44:04,585 - INFO - Establecimiento: 001
+2025-09-03 11:44:04,586 - INFO - Punto emisión: 001
+2025-09-03 11:44:04,586 - INFO - Secuencial: 000006267
+2025-09-03 11:44:04,586 - INFO - Número autorización: 
+2025-09-03 11:44:04,586 - INFO - Código documento: 01
+2025-09-03 11:44:04,586 - INFO - Tipo emisión: 1
+2025-09-03 11:44:04,586 - INFO - Datos completos: {'email_destinatario': 'Cmontaluisa@webposonline.net', 'clave_acceso': '0209202501099284045500110010010000062671234567813', 'total_con_impuestos': '1.15', 'razon_social': 'WEBPOS S.A.', 'razon_social_comprador': 'MONTALUISA BAÑO CARLOS ALBERTO', 'fecha_emision': '02/09/2025', 'numero_factura': '000006267', 'estab': '001', 'pto_emi': '001', 'secuencial': '000006267', 'numero_autorizacion': '', 'codigo_documento': '01', 'tipo_emision': '1', 'fecha_autorizacion': '', 'estado_autorizacion': ''}
+2025-09-03 11:44:04,586 - INFO - Número de autorización (desde XML autorización): 0209202501099284045500110010010000062671234567813
+2025-09-03 11:44:04,586 - INFO - Fecha de autorización: 2025-09-02T12:10:28.000-05:00
+2025-09-03 11:44:04,586 - INFO - Estado autorización: AUTORIZADO
+2025-09-03 11:44:04,586 - INFO - Datos extraídos del XML: XMLData(email_destinatario='Cmontaluisa@webposonline.net', clave_acceso='0209202501099284045500110010010000062671234567813', total_con_impuestos='1.15', razon_social='WEBPOS S.A.', razon_social_comprador='MONTALUISA BAÑO CARLOS ALBERTO', fecha_emision='02/09/2025', numero_factura='000006267', estab='001', pto_emi='001', secuencial='000006267', numero_autorizacion='0209202501099284045500110010010000062671234567813', codigo_documento='01', tipo_emision='1', fecha_autorizacion='2025-09-02T12:10:28.000-05:00', estado_autorizacion='AUTORIZADO')
+2025-09-03 11:44:04,586 - INFO - Email destino para cliente: jalcoser@webpospanama.com
+2025-09-03 11:44:04,586 - INFO - === SERVICIO - CONTEXTO PARA PLANTILLAS ===
+2025-09-03 11:44:04,586 - INFO - Número de comprobante generado: 001-001-000006267
+2025-09-03 11:44:04,586 - INFO - Tipo de documento: 01 - Factura
+2025-09-03 11:44:04,586 - INFO - Tipo de emisión: 1 - Emisión Normal
+2025-09-03 11:44:04,586 - INFO - Contexto completo: {
+  "fecha_procesamiento": "03/09/2025 11:44:04",
+  "entorno": "test",
+  "email_origen": "=?ISO-8859-1?Q?WEBPOS_S=2EA_Doc=2E_Electr=F3nico?=<edelivery@webpossa.com>",
+  "asunto_original": "=?ISO-8859-1?Q?Su_Documento_Electr=F3nico?=",
+  "xml_filename": "FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml",
+  "email_extraido": "Cmontaluisa@webposonline.net",
+  "clave_acceso": "0209202501099284045500110010010000062671234567813",
+  "total_con_impuestos": "1.15",
+  "razon_social": "MONTALUISA BAÑO CARLOS ALBERTO",
+  "fecha_emision": "02/09/2025",
+  "numero_factura": "000006267",
+  "adjuntos_procesados": [
+    "FACTURA_0209202501099284045500110010010000062671234567813.pdf",
+    "FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml"
+  ],
+  "xml_data": {
+    "email_destinatario": "Cmontaluisa@webposonline.net",
+    "clave_acceso": "0209202501099284045500110010010000062671234567813",
+    "total_con_impuestos": "1.15",
+    "razon_social": "WEBPOS S.A.",
+    "razon_social_comprador": "MONTALUISA BAÑO CARLOS ALBERTO",
+    "fecha_emision": "02/09/2025",
+    "numero_factura": "000006267",
+    "estab": "001",
+    "pto_emi": "001",
+    "secuencial": "000006267",
+    "numero_autorizacion": "0209202501099284045500110010010000062671234567813",
+    "codigo_documento": "01",
+    "tipo_emision": "1",
+    "fecha_autorizacion": "2025-09-02T12:10:28.000-05:00",
+    "estado_autorizacion": "AUTORIZADO"
+  },
+  "numero_comprobante": "001-001-000006267",
+  "numero_autorizacion": "0209202501099284045500110010010000062671234567813",
+  "estab": "001",
+  "pto_emi": "001",
+  "secuencial": "000006267",
+  "codigo_documento": "01",
+  "tipo_documento_texto": "Factura",
+  "tipo_emision": "1",
+  "tipo_emision_texto": "Emisión Normal"
+}
+2025-09-03 11:44:04,586 - INFO - === ENVIANDO EMAIL DE PROCESSING (email_template.html) ===
+2025-09-03 11:44:04,604 - INFO - HTML generado para email_template.html (primeros 200 chars): <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Procesamiento de XML</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  ...
+2025-09-03 11:44:04,604 - INFO - Preparando email para enviar. Destino: edelivery@webpossa.com, Asunto: '[TEST] XML Procesado - FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml'
+2025-09-03 11:44:07,626 - INFO - Email enviado exitosamente a: edelivery@webpossa.com
+2025-09-03 11:44:07,626 - INFO - Email de procesamiento enviado correctamente a edelivery@webpossa.com
+2025-09-03 11:44:07,626 - INFO - === ENVIANDO EMAIL DE CLIENTE (webpos_template.html) ===
+2025-09-03 11:44:07,639 - INFO - Preparando email para enviar. Destino: jalcoser@webpospanama.com, Asunto: 'Su Documento Electrónico - WebPOS'
+2025-09-03 11:44:10,917 - INFO - Email enviado exitosamente a: jalcoser@webpospanama.com
+2025-09-03 11:44:10,917 - INFO - Email de cliente enviado correctamente a jalcoser@webpospanama.com
+2025-09-03 12:01:09,420 - INFO - Servicio iniciado en modo: test
+2025-09-03 12:01:09,420 - INFO - Ejecutando servicio de monitoreo
+2025-09-03 12:01:09,420 - INFO - === INICIANDO SERVICIO - PROCESANDO EMAILS REALES ===
+2025-09-03 12:01:11,638 - INFO - Correos no leídos encontrados: 1
+2025-09-03 12:01:11,638 - INFO - Procesando email #1 de 1
+2025-09-03 12:01:11,638 - INFO - Procesando email de: =?ISO-8859-1?Q?WEBPOS_S=2EA_Doc=2E_Electr=F3nico?=<edelivery@webpossa.com>, Asunto: =?ISO-8859-1?Q?Su_Documento_Electr=F3nico?=
+2025-09-03 12:01:11,638 - INFO - Procesando parte del email:
+2025-09-03 12:01:11,638 - INFO -   Content-Type: multipart/mixed
+2025-09-03 12:01:11,638 - INFO -   Content-Disposition: 
+2025-09-03 12:01:11,638 - INFO - Procesando parte del email:
+2025-09-03 12:01:11,638 - INFO -   Content-Type: multipart/related
+2025-09-03 12:01:11,638 - INFO -   Content-Disposition: 
+2025-09-03 12:01:11,645 - INFO - Procesando parte del email:
+2025-09-03 12:01:11,645 - INFO -   Content-Type: text/html
+2025-09-03 12:01:11,646 - INFO -   Content-Disposition: 
+2025-09-03 12:01:11,646 - INFO - Procesando parte del email:
+2025-09-03 12:01:11,646 - INFO -   Content-Type: image/png
+2025-09-03 12:01:11,646 - INFO -   Content-Disposition: 
+2025-09-03 12:01:11,646 - INFO - Procesando parte del email:
+2025-09-03 12:01:11,646 - INFO -   Content-Type: image/png
+2025-09-03 12:01:11,646 - INFO -   Content-Disposition: 
+2025-09-03 12:01:11,646 - INFO - Procesando parte del email:
+2025-09-03 12:01:11,646 - INFO -   Content-Type: image/png
+2025-09-03 12:01:11,649 - INFO -   Content-Disposition: 
+2025-09-03 12:01:11,649 - INFO - Procesando parte del email:
+2025-09-03 12:01:11,649 - INFO -   Content-Type: image/png
+2025-09-03 12:01:11,649 - INFO -   Content-Disposition: 
+2025-09-03 12:01:11,649 - INFO - Procesando parte del email:
+2025-09-03 12:01:11,650 - INFO -   Content-Type: image/png
+2025-09-03 12:01:11,650 - INFO -   Content-Disposition: 
+2025-09-03 12:01:11,650 - INFO - Procesando parte del email:
+2025-09-03 12:01:11,650 - INFO -   Content-Type: application/pdf
+2025-09-03 12:01:11,650 - INFO -   Content-Disposition: attachment;
+	filename="FACTURA_0209202501099284045500110010010000062671234567813.pdf"
+2025-09-03 12:01:11,650 - INFO -   Filename detectado: FACTURA_0209202501099284045500110010010000062671234567813.pdf
+2025-09-03 12:01:11,653 - INFO - ✅ Validación exitosa: FACTURA_0209202501099284045500110010010000062671234567813.pdf - Tipo detectado: PDF
+2025-09-03 12:01:11,654 - INFO - ✅ Adjunto extraído: FACTURA_0209202501099284045500110010010000062671234567813.pdf (38596 bytes)
+2025-09-03 12:01:11,654 - INFO - Procesando parte del email:
+2025-09-03 12:01:11,654 - INFO -   Content-Type: application/xml
+2025-09-03 12:01:11,655 - INFO -   Content-Disposition: attachment;
+	filename="FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml"
+2025-09-03 12:01:11,655 - INFO -   Filename detectado: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml
+2025-09-03 12:01:11,656 - INFO - ✅ Validación exitosa: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml - Tipo detectado: XML
+2025-09-03 12:01:11,656 - INFO - ✅ Adjunto extraído: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml (9994 bytes)
+2025-09-03 12:01:11,656 - INFO - 📎 Total de adjuntos extraídos: 2
+2025-09-03 12:01:11,656 - INFO -    - FACTURA_0209202501099284045500110010010000062671234567813.pdf: 38596 bytes, tipo detectado: PDF
+2025-09-03 12:01:11,657 - INFO -    - FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml: 9994 bytes, tipo detectado: XML
+2025-09-03 12:01:11,657 - INFO - Adjuntos encontrados: ['FACTURA_0209202501099284045500110010010000062671234567813.pdf', 'FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml']
+2025-09-03 12:01:11,657 - INFO - Procesando adjunto: FACTURA_0209202501099284045500110010010000062671234567813.pdf
+2025-09-03 12:01:11,658 - INFO - Procesando adjunto: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml
+2025-09-03 12:01:11,663 - INFO - Contenido extraído del CDATA:
+<?xml version="1.0" encoding="utf-8"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>1</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>WEBPOS S.A.</razonSocial>
+    <nombreComercial>WEBPOS S.A</nombreComercial>
+    <ruc>0992840455001</ruc>
+    <claveAcceso>0209202501099284045500110010010000062671234567813</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>000006267</secuencial>
+    <dirMatriz>Voz Andes 
+2025-09-03 12:01:11,665 - INFO - Campo encontrado: 'NOTA' -> 'nota'
+2025-09-03 12:01:11,665 - INFO - Campo encontrado: 'vendedor ' -> 'vendedor'
+2025-09-03 12:01:11,665 - INFO - Campo encontrado: 'correo ' -> 'correo'
+2025-09-03 12:01:11,666 - INFO - Campo encontrado: 'ciudad ' -> 'ciudad'
+2025-09-03 12:01:11,666 - INFO - Campo encontrado: 'Email' -> 'email'
+2025-09-03 12:01:11,666 - INFO - Email encontrado: Cmontaluisa@webposonline.net
+2025-09-03 12:01:11,667 - INFO - Clave de acceso: 0209202501099284045500110010010000062671234567813
+2025-09-03 12:01:11,667 - INFO - Total con impuestos: 1.15
+2025-09-03 12:01:11,667 - INFO - Razón social comprador: MONTALUISA BAÑO CARLOS ALBERTO
+2025-09-03 12:01:11,668 - INFO - Razón social: WEBPOS S.A.
+2025-09-03 12:01:11,668 - INFO - Fecha emisión: 02/09/2025
+2025-09-03 12:01:11,669 - INFO - Número factura/secuencial: 000006267
+2025-09-03 12:01:11,669 - INFO - Establecimiento: 001
+2025-09-03 12:01:11,670 - INFO - Punto de emisión: 001
+2025-09-03 12:01:11,670 - INFO - Código de documento: 01
+2025-09-03 12:01:11,671 - INFO - Tipo de emisión: 1
+2025-09-03 12:01:11,671 - INFO - === DATOS XML PROCESADOS EXITOSAMENTE ===
+2025-09-03 12:01:11,671 - INFO - Email destinatario: Cmontaluisa@webposonline.net
+2025-09-03 12:01:11,672 - INFO - Clave acceso: 0209202501099284045500110010010000062671234567813
+2025-09-03 12:01:11,672 - INFO - Total: 1.15
+2025-09-03 12:01:11,673 - INFO - Establecimiento: 001
+2025-09-03 12:01:11,673 - INFO - Punto emisión: 001
+2025-09-03 12:01:11,673 - INFO - Secuencial: 000006267
+2025-09-03 12:01:11,674 - INFO - Número autorización: 
+2025-09-03 12:01:11,674 - INFO - Código documento: 01
+2025-09-03 12:01:11,675 - INFO - Tipo emisión: 1
+2025-09-03 12:01:11,675 - INFO - Datos completos: {'email_destinatario': 'Cmontaluisa@webposonline.net', 'clave_acceso': '0209202501099284045500110010010000062671234567813', 'total_con_impuestos': '1.15', 'razon_social': 'WEBPOS S.A.', 'razon_social_comprador': 'MONTALUISA BAÑO CARLOS ALBERTO', 'fecha_emision': '02/09/2025', 'numero_factura': '000006267', 'estab': '001', 'pto_emi': '001', 'secuencial': '000006267', 'numero_autorizacion': '', 'codigo_documento': '01', 'tipo_emision': '1', 'fecha_autorizacion': '', 'estado_autorizacion': ''}
+2025-09-03 12:01:11,676 - INFO - Número de autorización (desde XML autorización): 0209202501099284045500110010010000062671234567813
+2025-09-03 12:01:11,676 - INFO - Fecha de autorización: 2025-09-02T12:10:28.000-05:00
+2025-09-03 12:01:11,676 - INFO - Estado autorización: AUTORIZADO
+2025-09-03 12:01:11,676 - INFO - Datos extraídos del XML: XMLData(email_destinatario='Cmontaluisa@webposonline.net', clave_acceso='0209202501099284045500110010010000062671234567813', total_con_impuestos='1.15', razon_social='WEBPOS S.A.', razon_social_comprador='MONTALUISA BAÑO CARLOS ALBERTO', fecha_emision='02/09/2025', numero_factura='000006267', estab='001', pto_emi='001', secuencial='000006267', numero_autorizacion='0209202501099284045500110010010000062671234567813', codigo_documento='01', tipo_emision='1', fecha_autorizacion='2025-09-02T12:10:28.000-05:00', estado_autorizacion='AUTORIZADO')
+2025-09-03 12:01:11,676 - INFO - Email destino para cliente: jalcoser@webpospanama.com
+2025-09-03 12:01:11,678 - INFO - === SERVICIO - CONTEXTO PARA PLANTILLAS ===
+2025-09-03 12:01:11,678 - INFO - Número de comprobante generado: 001-001-000006267
+2025-09-03 12:01:11,679 - INFO - Tipo de documento: 01 - Factura
+2025-09-03 12:01:11,679 - INFO - Tipo de emisión: 1 - Emisión Normal
+2025-09-03 12:01:11,680 - INFO - Contexto completo: {
+  "fecha_procesamiento": "03/09/2025 12:01:11",
+  "entorno": "test",
+  "email_origen": "=?ISO-8859-1?Q?WEBPOS_S=2EA_Doc=2E_Electr=F3nico?=<edelivery@webpossa.com>",
+  "asunto_original": "=?ISO-8859-1?Q?Su_Documento_Electr=F3nico?=",
+  "xml_filename": "FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml",
+  "email_extraido": "Cmontaluisa@webposonline.net",
+  "clave_acceso": "0209202501099284045500110010010000062671234567813",
+  "total_con_impuestos": "1.15",
+  "razon_social": "MONTALUISA BAÑO CARLOS ALBERTO",
+  "fecha_emision": "02/09/2025",
+  "numero_factura": "000006267",
+  "adjuntos_procesados": [
+    "FACTURA_0209202501099284045500110010010000062671234567813.pdf",
+    "FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml"
+  ],
+  "xml_data": {
+    "email_destinatario": "Cmontaluisa@webposonline.net",
+    "clave_acceso": "0209202501099284045500110010010000062671234567813",
+    "total_con_impuestos": "1.15",
+    "razon_social": "WEBPOS S.A.",
+    "razon_social_comprador": "MONTALUISA BAÑO CARLOS ALBERTO",
+    "fecha_emision": "02/09/2025",
+    "numero_factura": "000006267",
+    "estab": "001",
+    "pto_emi": "001",
+    "secuencial": "000006267",
+    "numero_autorizacion": "0209202501099284045500110010010000062671234567813",
+    "codigo_documento": "01",
+    "tipo_emision": "1",
+    "fecha_autorizacion": "2025-09-02T12:10:28.000-05:00",
+    "estado_autorizacion": "AUTORIZADO"
+  },
+  "numero_comprobante": "001-001-000006267",
+  "numero_autorizacion": "0209202501099284045500110010010000062671234567813",
+  "estab": "001",
+  "pto_emi": "001",
+  "secuencial": "000006267",
+  "codigo_documento": "01",
+  "tipo_documento_texto": "Factura",
+  "tipo_emision": "1",
+  "tipo_emision_texto": "Emisión Normal"
+}
+2025-09-03 12:01:11,681 - INFO - === ENVIANDO EMAIL DE PROCESSING (email_template.html) ===
+2025-09-03 12:01:11,690 - INFO - HTML generado para email_template.html (primeros 200 chars): <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Procesamiento de XML</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  ...
+2025-09-03 12:01:11,690 - INFO - Preparando email para enviar. Destino: edelivery@webpossa.com, Asunto: '[TEST] XML Procesado - FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml'
+2025-09-03 12:01:14,668 - INFO - Email enviado exitosamente a: edelivery@webpossa.com
+2025-09-03 12:01:14,668 - INFO - Email de procesamiento enviado correctamente a edelivery@webpossa.com
+2025-09-03 12:01:14,668 - INFO - === ENVIANDO EMAIL DE CLIENTE (webpos_template.html) ===
+2025-09-03 12:01:14,683 - ERROR - Error generando PDF desde XML para adjuntar: No module named 'reportlab'
+2025-09-03 12:01:14,683 - INFO - Preparando email para enviar. Destino: jalcoser@webpospanama.com, Asunto: 'Su Documento Electrónico - WebPOS'
+2025-09-03 12:01:17,901 - INFO - Email enviado exitosamente a: jalcoser@webpospanama.com
+2025-09-03 12:01:17,901 - INFO - Email de cliente enviado correctamente a jalcoser@webpospanama.com
+2025-09-03 12:05:44,621 - INFO - Servicio iniciado en modo: test
+2025-09-03 12:05:44,621 - INFO - Ejecutando servicio de monitoreo
+2025-09-03 12:05:44,621 - INFO - === INICIANDO SERVICIO - PROCESANDO EMAILS REALES ===
+2025-09-03 12:05:46,706 - INFO - Correos no leídos encontrados: 1
+2025-09-03 12:05:46,707 - INFO - Procesando email #1 de 1
+2025-09-03 12:05:46,708 - INFO - Procesando email de: =?ISO-8859-1?Q?WEBPOS_S=2EA_Doc=2E_Electr=F3nico?=<edelivery@webpossa.com>, Asunto: =?ISO-8859-1?Q?Su_Documento_Electr=F3nico?=
+2025-09-03 12:05:46,709 - INFO - Procesando parte del email:
+2025-09-03 12:05:46,709 - INFO -   Content-Type: multipart/mixed
+2025-09-03 12:05:46,710 - INFO -   Content-Disposition: 
+2025-09-03 12:05:46,710 - INFO - Procesando parte del email:
+2025-09-03 12:05:46,710 - INFO -   Content-Type: multipart/related
+2025-09-03 12:05:46,710 - INFO -   Content-Disposition: 
+2025-09-03 12:05:46,711 - INFO - Procesando parte del email:
+2025-09-03 12:05:46,711 - INFO -   Content-Type: text/html
+2025-09-03 12:05:46,711 - INFO -   Content-Disposition: 
+2025-09-03 12:05:46,711 - INFO - Procesando parte del email:
+2025-09-03 12:05:46,712 - INFO -   Content-Type: image/png
+2025-09-03 12:05:46,713 - INFO -   Content-Disposition: 
+2025-09-03 12:05:46,713 - INFO - Procesando parte del email:
+2025-09-03 12:05:46,714 - INFO -   Content-Type: image/png
+2025-09-03 12:05:46,717 - INFO -   Content-Disposition: 
+2025-09-03 12:05:46,717 - INFO - Procesando parte del email:
+2025-09-03 12:05:46,718 - INFO -   Content-Type: image/png
+2025-09-03 12:05:46,719 - INFO -   Content-Disposition: 
+2025-09-03 12:05:46,720 - INFO - Procesando parte del email:
+2025-09-03 12:05:46,720 - INFO -   Content-Type: image/png
+2025-09-03 12:05:46,721 - INFO -   Content-Disposition: 
+2025-09-03 12:05:46,721 - INFO - Procesando parte del email:
+2025-09-03 12:05:46,721 - INFO -   Content-Type: image/png
+2025-09-03 12:05:46,723 - INFO -   Content-Disposition: 
+2025-09-03 12:05:46,724 - INFO - Procesando parte del email:
+2025-09-03 12:05:46,725 - INFO -   Content-Type: application/pdf
+2025-09-03 12:05:46,725 - INFO -   Content-Disposition: attachment;
+	filename="FACTURA_0209202501099284045500110010010000062671234567813.pdf"
+2025-09-03 12:05:46,726 - INFO -   Filename detectado: FACTURA_0209202501099284045500110010010000062671234567813.pdf
+2025-09-03 12:05:46,728 - INFO - ✅ Validación exitosa: FACTURA_0209202501099284045500110010010000062671234567813.pdf - Tipo detectado: PDF
+2025-09-03 12:05:46,728 - INFO - ✅ Adjunto extraído: FACTURA_0209202501099284045500110010010000062671234567813.pdf (38596 bytes)
+2025-09-03 12:05:46,729 - INFO - Procesando parte del email:
+2025-09-03 12:05:46,729 - INFO -   Content-Type: application/xml
+2025-09-03 12:05:46,729 - INFO -   Content-Disposition: attachment;
+	filename="FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml"
+2025-09-03 12:05:46,729 - INFO -   Filename detectado: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml
+2025-09-03 12:05:46,729 - INFO - ✅ Validación exitosa: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml - Tipo detectado: XML
+2025-09-03 12:05:46,731 - INFO - ✅ Adjunto extraído: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml (9994 bytes)
+2025-09-03 12:05:46,731 - INFO - 📎 Total de adjuntos extraídos: 2
+2025-09-03 12:05:46,734 - INFO -    - FACTURA_0209202501099284045500110010010000062671234567813.pdf: 38596 bytes, tipo detectado: PDF
+2025-09-03 12:05:46,734 - INFO -    - FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml: 9994 bytes, tipo detectado: XML
+2025-09-03 12:05:46,735 - INFO - Adjuntos encontrados: ['FACTURA_0209202501099284045500110010010000062671234567813.pdf', 'FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml']
+2025-09-03 12:05:46,735 - INFO - Procesando adjunto: FACTURA_0209202501099284045500110010010000062671234567813.pdf
+2025-09-03 12:05:46,735 - INFO - Procesando adjunto: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml
+2025-09-03 12:05:46,740 - INFO - Contenido extraído del CDATA:
+<?xml version="1.0" encoding="utf-8"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>1</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>WEBPOS S.A.</razonSocial>
+    <nombreComercial>WEBPOS S.A</nombreComercial>
+    <ruc>0992840455001</ruc>
+    <claveAcceso>0209202501099284045500110010010000062671234567813</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>000006267</secuencial>
+    <dirMatriz>Voz Andes 
+2025-09-03 12:05:46,740 - INFO - Campo encontrado: 'NOTA' -> 'nota'
+2025-09-03 12:05:46,740 - INFO - Campo encontrado: 'vendedor ' -> 'vendedor'
+2025-09-03 12:05:46,740 - INFO - Campo encontrado: 'correo ' -> 'correo'
+2025-09-03 12:05:46,740 - INFO - Campo encontrado: 'ciudad ' -> 'ciudad'
+2025-09-03 12:05:46,740 - INFO - Campo encontrado: 'Email' -> 'email'
+2025-09-03 12:05:46,740 - INFO - Email encontrado: Cmontaluisa@webposonline.net
+2025-09-03 12:05:46,740 - INFO - Clave de acceso: 0209202501099284045500110010010000062671234567813
+2025-09-03 12:05:46,740 - INFO - Total con impuestos: 1.15
+2025-09-03 12:05:46,740 - INFO - Razón social comprador: MONTALUISA BAÑO CARLOS ALBERTO
+2025-09-03 12:05:46,740 - INFO - Razón social: WEBPOS S.A.
+2025-09-03 12:05:46,740 - INFO - Fecha emisión: 02/09/2025
+2025-09-03 12:05:46,740 - INFO - Número factura/secuencial: 000006267
+2025-09-03 12:05:46,740 - INFO - Establecimiento: 001
+2025-09-03 12:05:46,740 - INFO - Punto de emisión: 001
+2025-09-03 12:05:46,740 - INFO - Código de documento: 01
+2025-09-03 12:05:46,740 - INFO - Tipo de emisión: 1
+2025-09-03 12:05:46,740 - INFO - === DATOS XML PROCESADOS EXITOSAMENTE ===
+2025-09-03 12:05:46,740 - INFO - Email destinatario: Cmontaluisa@webposonline.net
+2025-09-03 12:05:46,740 - INFO - Clave acceso: 0209202501099284045500110010010000062671234567813
+2025-09-03 12:05:46,740 - INFO - Total: 1.15
+2025-09-03 12:05:46,740 - INFO - Establecimiento: 001
+2025-09-03 12:05:46,740 - INFO - Punto emisión: 001
+2025-09-03 12:05:46,740 - INFO - Secuencial: 000006267
+2025-09-03 12:05:46,740 - INFO - Número autorización: 
+2025-09-03 12:05:46,740 - INFO - Código documento: 01
+2025-09-03 12:05:46,740 - INFO - Tipo emisión: 1
+2025-09-03 12:05:46,749 - INFO - Datos completos: {'email_destinatario': 'Cmontaluisa@webposonline.net', 'clave_acceso': '0209202501099284045500110010010000062671234567813', 'total_con_impuestos': '1.15', 'razon_social': 'WEBPOS S.A.', 'razon_social_comprador': 'MONTALUISA BAÑO CARLOS ALBERTO', 'fecha_emision': '02/09/2025', 'numero_factura': '000006267', 'estab': '001', 'pto_emi': '001', 'secuencial': '000006267', 'numero_autorizacion': '', 'codigo_documento': '01', 'tipo_emision': '1', 'fecha_autorizacion': '', 'estado_autorizacion': ''}
+2025-09-03 12:05:46,749 - INFO - Número de autorización (desde XML autorización): 0209202501099284045500110010010000062671234567813
+2025-09-03 12:05:46,749 - INFO - Fecha de autorización: 2025-09-02T12:10:28.000-05:00
+2025-09-03 12:05:46,749 - INFO - Estado autorización: AUTORIZADO
+2025-09-03 12:05:46,749 - INFO - Datos extraídos del XML: XMLData(email_destinatario='Cmontaluisa@webposonline.net', clave_acceso='0209202501099284045500110010010000062671234567813', total_con_impuestos='1.15', razon_social='WEBPOS S.A.', razon_social_comprador='MONTALUISA BAÑO CARLOS ALBERTO', fecha_emision='02/09/2025', numero_factura='000006267', estab='001', pto_emi='001', secuencial='000006267', numero_autorizacion='0209202501099284045500110010010000062671234567813', codigo_documento='01', tipo_emision='1', fecha_autorizacion='2025-09-02T12:10:28.000-05:00', estado_autorizacion='AUTORIZADO')
+2025-09-03 12:05:46,749 - INFO - Email destino para cliente: jalcoser@webpospanama.com
+2025-09-03 12:05:46,749 - INFO - === SERVICIO - CONTEXTO PARA PLANTILLAS ===
+2025-09-03 12:05:46,749 - INFO - Número de comprobante generado: 001-001-000006267
+2025-09-03 12:05:46,749 - INFO - Tipo de documento: 01 - Factura
+2025-09-03 12:05:46,749 - INFO - Tipo de emisión: 1 - Emisión Normal
+2025-09-03 12:05:46,749 - INFO - Contexto completo: {
+  "fecha_procesamiento": "03/09/2025 12:05:46",
+  "entorno": "test",
+  "email_origen": "=?ISO-8859-1?Q?WEBPOS_S=2EA_Doc=2E_Electr=F3nico?=<edelivery@webpossa.com>",
+  "asunto_original": "=?ISO-8859-1?Q?Su_Documento_Electr=F3nico?=",
+  "xml_filename": "FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml",
+  "email_extraido": "Cmontaluisa@webposonline.net",
+  "clave_acceso": "0209202501099284045500110010010000062671234567813",
+  "total_con_impuestos": "1.15",
+  "razon_social": "MONTALUISA BAÑO CARLOS ALBERTO",
+  "fecha_emision": "02/09/2025",
+  "numero_factura": "000006267",
+  "adjuntos_procesados": [
+    "FACTURA_0209202501099284045500110010010000062671234567813.pdf",
+    "FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml"
+  ],
+  "xml_data": {
+    "email_destinatario": "Cmontaluisa@webposonline.net",
+    "clave_acceso": "0209202501099284045500110010010000062671234567813",
+    "total_con_impuestos": "1.15",
+    "razon_social": "WEBPOS S.A.",
+    "razon_social_comprador": "MONTALUISA BAÑO CARLOS ALBERTO",
+    "fecha_emision": "02/09/2025",
+    "numero_factura": "000006267",
+    "estab": "001",
+    "pto_emi": "001",
+    "secuencial": "000006267",
+    "numero_autorizacion": "0209202501099284045500110010010000062671234567813",
+    "codigo_documento": "01",
+    "tipo_emision": "1",
+    "fecha_autorizacion": "2025-09-02T12:10:28.000-05:00",
+    "estado_autorizacion": "AUTORIZADO"
+  },
+  "numero_comprobante": "001-001-000006267",
+  "numero_autorizacion": "0209202501099284045500110010010000062671234567813",
+  "estab": "001",
+  "pto_emi": "001",
+  "secuencial": "000006267",
+  "codigo_documento": "01",
+  "tipo_documento_texto": "Factura",
+  "tipo_emision": "1",
+  "tipo_emision_texto": "Emisión Normal"
+}
+2025-09-03 12:05:46,749 - INFO - === ENVIANDO EMAIL DE PROCESSING (email_template.html) ===
+2025-09-03 12:05:46,763 - INFO - HTML generado para email_template.html (primeros 200 chars): <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Procesamiento de XML</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  ...
+2025-09-03 12:05:46,764 - INFO - Preparando email para enviar. Destino: edelivery@webpossa.com, Asunto: '[TEST] XML Procesado - FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml'
+2025-09-03 12:05:49,729 - INFO - Email enviado exitosamente a: edelivery@webpossa.com
+2025-09-03 12:05:49,729 - INFO - Email de procesamiento enviado correctamente a edelivery@webpossa.com
+2025-09-03 12:05:49,730 - INFO - === ENVIANDO EMAIL DE CLIENTE (webpos_template.html) ===
+2025-09-03 12:05:50,026 - ERROR - Error generando PDF desde datos XML para adjuntar: [Errno 2] No such file or directory: 'FACTURA_0708202501099284045500120010010000062191234567816_AUTORIZADO_1.xml'
+2025-09-03 12:05:50,026 - INFO - Preparando email para enviar. Destino: jalcoser@webpospanama.com, Asunto: 'Su Documento Electrónico - WebPOS'
+2025-09-03 12:05:53,292 - INFO - Email enviado exitosamente a: jalcoser@webpospanama.com
+2025-09-03 12:05:53,293 - INFO - Email de cliente enviado correctamente a jalcoser@webpospanama.com
+2025-09-03 12:15:19,913 - INFO - Servicio iniciado en modo: test
+2025-09-03 12:15:19,913 - INFO - Ejecutando servicio de monitoreo
+2025-09-03 12:15:19,913 - INFO - === INICIANDO SERVICIO - PROCESANDO EMAILS REALES ===
+2025-09-03 12:15:21,799 - INFO - Correos no leídos encontrados: 1
+2025-09-03 12:15:21,799 - INFO - Procesando email #1 de 1
+2025-09-03 12:15:21,799 - INFO - Procesando email de: =?ISO-8859-1?Q?WEBPOS_S=2EA_Doc=2E_Electr=F3nico?=<edelivery@webpossa.com>, Asunto: =?ISO-8859-1?Q?Su_Documento_Electr=F3nico?=
+2025-09-03 12:15:21,799 - INFO - Procesando parte del email:
+2025-09-03 12:15:21,799 - INFO -   Content-Type: multipart/mixed
+2025-09-03 12:15:21,799 - INFO -   Content-Disposition: 
+2025-09-03 12:15:21,799 - INFO - Procesando parte del email:
+2025-09-03 12:15:21,799 - INFO -   Content-Type: multipart/related
+2025-09-03 12:15:21,799 - INFO -   Content-Disposition: 
+2025-09-03 12:15:21,799 - INFO - Procesando parte del email:
+2025-09-03 12:15:21,799 - INFO -   Content-Type: text/html
+2025-09-03 12:15:21,799 - INFO -   Content-Disposition: 
+2025-09-03 12:15:21,799 - INFO - Procesando parte del email:
+2025-09-03 12:15:21,799 - INFO -   Content-Type: image/png
+2025-09-03 12:15:21,799 - INFO -   Content-Disposition: 
+2025-09-03 12:15:21,799 - INFO - Procesando parte del email:
+2025-09-03 12:15:21,815 - INFO -   Content-Type: image/png
+2025-09-03 12:15:21,815 - INFO -   Content-Disposition: 
+2025-09-03 12:15:21,815 - INFO - Procesando parte del email:
+2025-09-03 12:15:21,816 - INFO -   Content-Type: image/png
+2025-09-03 12:15:21,816 - INFO -   Content-Disposition: 
+2025-09-03 12:15:21,817 - INFO - Procesando parte del email:
+2025-09-03 12:15:21,818 - INFO -   Content-Type: image/png
+2025-09-03 12:15:21,818 - INFO -   Content-Disposition: 
+2025-09-03 12:15:21,818 - INFO - Procesando parte del email:
+2025-09-03 12:15:21,818 - INFO -   Content-Type: image/png
+2025-09-03 12:15:21,818 - INFO -   Content-Disposition: 
+2025-09-03 12:15:21,820 - INFO - Procesando parte del email:
+2025-09-03 12:15:21,820 - INFO -   Content-Type: application/pdf
+2025-09-03 12:15:21,820 - INFO -   Content-Disposition: attachment;
+	filename="FACTURA_0209202501099284045500110010010000062671234567813.pdf"
+2025-09-03 12:15:21,822 - INFO -   Filename detectado: FACTURA_0209202501099284045500110010010000062671234567813.pdf
+2025-09-03 12:15:21,824 - INFO - ✅ Validación exitosa: FACTURA_0209202501099284045500110010010000062671234567813.pdf - Tipo detectado: PDF
+2025-09-03 12:15:21,824 - INFO - ✅ Adjunto extraído: FACTURA_0209202501099284045500110010010000062671234567813.pdf (38596 bytes)
+2025-09-03 12:15:21,825 - INFO - Procesando parte del email:
+2025-09-03 12:15:21,825 - INFO -   Content-Type: application/xml
+2025-09-03 12:15:21,825 - INFO -   Content-Disposition: attachment;
+	filename="FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml"
+2025-09-03 12:15:21,826 - INFO -   Filename detectado: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml
+2025-09-03 12:15:21,826 - INFO - ✅ Validación exitosa: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml - Tipo detectado: XML
+2025-09-03 12:15:21,826 - INFO - ✅ Adjunto extraído: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml (9994 bytes)
+2025-09-03 12:15:21,826 - INFO - 📎 Total de adjuntos extraídos: 2
+2025-09-03 12:15:21,826 - INFO -    - FACTURA_0209202501099284045500110010010000062671234567813.pdf: 38596 bytes, tipo detectado: PDF
+2025-09-03 12:15:21,826 - INFO -    - FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml: 9994 bytes, tipo detectado: XML
+2025-09-03 12:15:21,826 - INFO - Adjuntos encontrados: ['FACTURA_0209202501099284045500110010010000062671234567813.pdf', 'FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml']
+2025-09-03 12:15:21,826 - INFO - Procesando adjunto: FACTURA_0209202501099284045500110010010000062671234567813.pdf
+2025-09-03 12:15:21,826 - INFO - Procesando adjunto: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml
+2025-09-03 12:15:21,832 - INFO - Contenido extraído del CDATA:
+<?xml version="1.0" encoding="utf-8"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>1</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>WEBPOS S.A.</razonSocial>
+    <nombreComercial>WEBPOS S.A</nombreComercial>
+    <ruc>0992840455001</ruc>
+    <claveAcceso>0209202501099284045500110010010000062671234567813</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>000006267</secuencial>
+    <dirMatriz>Voz Andes 
+2025-09-03 12:15:21,832 - INFO - Campo encontrado: 'NOTA' -> 'nota'
+2025-09-03 12:15:21,832 - INFO - Campo encontrado: 'vendedor ' -> 'vendedor'
+2025-09-03 12:15:21,837 - INFO - Campo encontrado: 'correo ' -> 'correo'
+2025-09-03 12:15:21,837 - INFO - Campo encontrado: 'ciudad ' -> 'ciudad'
+2025-09-03 12:15:21,837 - INFO - Campo encontrado: 'Email' -> 'email'
+2025-09-03 12:15:21,837 - INFO - Email encontrado: Cmontaluisa@webposonline.net
+2025-09-03 12:15:21,837 - INFO - Clave de acceso: 0209202501099284045500110010010000062671234567813
+2025-09-03 12:15:21,837 - INFO - Total con impuestos: 1.15
+2025-09-03 12:15:21,837 - INFO - Razón social comprador: MONTALUISA BAÑO CARLOS ALBERTO
+2025-09-03 12:15:21,837 - INFO - Razón social: WEBPOS S.A.
+2025-09-03 12:15:21,839 - INFO - Fecha emisión: 02/09/2025
+2025-09-03 12:15:21,839 - INFO - Número factura/secuencial: 000006267
+2025-09-03 12:15:21,840 - INFO - Establecimiento: 001
+2025-09-03 12:15:21,840 - INFO - Punto de emisión: 001
+2025-09-03 12:15:21,840 - INFO - Código de documento: 01
+2025-09-03 12:15:21,840 - INFO - Tipo de emisión: 1
+2025-09-03 12:15:21,840 - INFO - === DATOS XML PROCESADOS EXITOSAMENTE ===
+2025-09-03 12:15:21,840 - INFO - Email destinatario: Cmontaluisa@webposonline.net
+2025-09-03 12:15:21,840 - INFO - Clave acceso: 0209202501099284045500110010010000062671234567813
+2025-09-03 12:15:21,840 - INFO - Total: 1.15
+2025-09-03 12:15:21,840 - INFO - Establecimiento: 001
+2025-09-03 12:15:21,840 - INFO - Punto emisión: 001
+2025-09-03 12:15:21,840 - INFO - Secuencial: 000006267
+2025-09-03 12:15:21,840 - INFO - Número autorización: 
+2025-09-03 12:15:21,840 - INFO - Código documento: 01
+2025-09-03 12:15:21,840 - INFO - Tipo emisión: 1
+2025-09-03 12:15:21,840 - INFO - Datos completos: {'email_destinatario': 'Cmontaluisa@webposonline.net', 'clave_acceso': '0209202501099284045500110010010000062671234567813', 'total_con_impuestos': '1.15', 'razon_social': 'WEBPOS S.A.', 'razon_social_comprador': 'MONTALUISA BAÑO CARLOS ALBERTO', 'fecha_emision': '02/09/2025', 'numero_factura': '000006267', 'estab': '001', 'pto_emi': '001', 'secuencial': '000006267', 'numero_autorizacion': '', 'codigo_documento': '01', 'tipo_emision': '1', 'fecha_autorizacion': '', 'estado_autorizacion': ''}
+2025-09-03 12:15:21,840 - INFO - Número de autorización (desde XML autorización): 0209202501099284045500110010010000062671234567813
+2025-09-03 12:15:21,840 - INFO - Fecha de autorización: 2025-09-02T12:10:28.000-05:00
+2025-09-03 12:15:21,840 - INFO - Estado autorización: AUTORIZADO
+2025-09-03 12:15:21,840 - INFO - Datos extraídos del XML: XMLData(email_destinatario='Cmontaluisa@webposonline.net', clave_acceso='0209202501099284045500110010010000062671234567813', total_con_impuestos='1.15', razon_social='WEBPOS S.A.', razon_social_comprador='MONTALUISA BAÑO CARLOS ALBERTO', fecha_emision='02/09/2025', numero_factura='000006267', estab='001', pto_emi='001', secuencial='000006267', numero_autorizacion='0209202501099284045500110010010000062671234567813', codigo_documento='01', tipo_emision='1', fecha_autorizacion='2025-09-02T12:10:28.000-05:00', estado_autorizacion='AUTORIZADO')
+2025-09-03 12:15:21,840 - INFO - Email destino para cliente: jalcoser@webpospanama.com
+2025-09-03 12:15:21,840 - INFO - === SERVICIO - CONTEXTO PARA PLANTILLAS ===
+2025-09-03 12:15:21,840 - INFO - Número de comprobante generado: 001-001-000006267
+2025-09-03 12:15:21,840 - INFO - Tipo de documento: 01 - Factura
+2025-09-03 12:15:21,840 - INFO - Tipo de emisión: 1 - Emisión Normal
+2025-09-03 12:15:21,840 - INFO - Contexto completo: {
+  "fecha_procesamiento": "03/09/2025 12:15:21",
+  "entorno": "test",
+  "email_origen": "=?ISO-8859-1?Q?WEBPOS_S=2EA_Doc=2E_Electr=F3nico?=<edelivery@webpossa.com>",
+  "asunto_original": "=?ISO-8859-1?Q?Su_Documento_Electr=F3nico?=",
+  "xml_filename": "FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml",
+  "email_extraido": "Cmontaluisa@webposonline.net",
+  "clave_acceso": "0209202501099284045500110010010000062671234567813",
+  "total_con_impuestos": "1.15",
+  "razon_social": "MONTALUISA BAÑO CARLOS ALBERTO",
+  "fecha_emision": "02/09/2025",
+  "numero_factura": "000006267",
+  "adjuntos_procesados": [
+    "FACTURA_0209202501099284045500110010010000062671234567813.pdf",
+    "FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml"
+  ],
+  "xml_data": {
+    "email_destinatario": "Cmontaluisa@webposonline.net",
+    "clave_acceso": "0209202501099284045500110010010000062671234567813",
+    "total_con_impuestos": "1.15",
+    "razon_social": "WEBPOS S.A.",
+    "razon_social_comprador": "MONTALUISA BAÑO CARLOS ALBERTO",
+    "fecha_emision": "02/09/2025",
+    "numero_factura": "000006267",
+    "estab": "001",
+    "pto_emi": "001",
+    "secuencial": "000006267",
+    "numero_autorizacion": "0209202501099284045500110010010000062671234567813",
+    "codigo_documento": "01",
+    "tipo_emision": "1",
+    "fecha_autorizacion": "2025-09-02T12:10:28.000-05:00",
+    "estado_autorizacion": "AUTORIZADO"
+  },
+  "numero_comprobante": "001-001-000006267",
+  "numero_autorizacion": "0209202501099284045500110010010000062671234567813",
+  "estab": "001",
+  "pto_emi": "001",
+  "secuencial": "000006267",
+  "codigo_documento": "01",
+  "tipo_documento_texto": "Factura",
+  "tipo_emision": "1",
+  "tipo_emision_texto": "Emisión Normal"
+}
+2025-09-03 12:15:21,847 - INFO - === ENVIANDO EMAIL DE PROCESSING (email_template.html) ===
+2025-09-03 12:15:21,857 - INFO - HTML generado para email_template.html (primeros 200 chars): <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Procesamiento de XML</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  ...
+2025-09-03 12:15:21,857 - INFO - Preparando email para enviar. Destino: edelivery@webpossa.com, Asunto: '[TEST] XML Procesado - FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml'
+2025-09-03 12:15:24,845 - INFO - Email enviado exitosamente a: edelivery@webpossa.com
+2025-09-03 12:15:24,845 - INFO - Email de procesamiento enviado correctamente a edelivery@webpossa.com
+2025-09-03 12:15:24,845 - INFO - === ENVIANDO EMAIL DE CLIENTE (webpos_template.html) ===
+2025-09-03 12:15:25,045 - INFO - Preparando email para enviar. Destino: jalcoser@webpospanama.com, Asunto: 'Su Documento Electrónico - WebPOS'
+2025-09-03 12:15:28,891 - INFO - Email enviado exitosamente a: jalcoser@webpospanama.com
+2025-09-03 12:15:28,891 - INFO - Email de cliente enviado correctamente a jalcoser@webpospanama.com
+2025-09-03 12:19:57,760 - INFO - Servicio iniciado en modo: test
+2025-09-03 12:19:57,763 - INFO - Ejecutando servicio de monitoreo
+2025-09-03 12:19:57,763 - INFO - === INICIANDO SERVICIO - PROCESANDO EMAILS REALES ===
+2025-09-03 12:19:59,970 - INFO - Correos no leídos encontrados: 1
+2025-09-03 12:19:59,970 - INFO - Procesando email #1 de 1
+2025-09-03 12:19:59,970 - INFO - Procesando email de: =?ISO-8859-1?Q?WEBPOS_S=2EA_Doc=2E_Electr=F3nico?=<edelivery@webpossa.com>, Asunto: =?ISO-8859-1?Q?Su_Documento_Electr=F3nico?=
+2025-09-03 12:19:59,971 - INFO - Procesando parte del email:
+2025-09-03 12:19:59,971 - INFO -   Content-Type: multipart/mixed
+2025-09-03 12:19:59,971 - INFO -   Content-Disposition: 
+2025-09-03 12:19:59,972 - INFO - Procesando parte del email:
+2025-09-03 12:19:59,972 - INFO -   Content-Type: multipart/related
+2025-09-03 12:19:59,972 - INFO -   Content-Disposition: 
+2025-09-03 12:19:59,972 - INFO - Procesando parte del email:
+2025-09-03 12:19:59,973 - INFO -   Content-Type: text/html
+2025-09-03 12:19:59,973 - INFO -   Content-Disposition: 
+2025-09-03 12:19:59,974 - INFO - Procesando parte del email:
+2025-09-03 12:19:59,974 - INFO -   Content-Type: image/png
+2025-09-03 12:19:59,974 - INFO -   Content-Disposition: 
+2025-09-03 12:19:59,975 - INFO - Procesando parte del email:
+2025-09-03 12:19:59,975 - INFO -   Content-Type: image/png
+2025-09-03 12:19:59,976 - INFO -   Content-Disposition: 
+2025-09-03 12:19:59,977 - INFO - Procesando parte del email:
+2025-09-03 12:19:59,977 - INFO -   Content-Type: image/png
+2025-09-03 12:19:59,978 - INFO -   Content-Disposition: 
+2025-09-03 12:19:59,978 - INFO - Procesando parte del email:
+2025-09-03 12:19:59,979 - INFO -   Content-Type: image/png
+2025-09-03 12:19:59,979 - INFO -   Content-Disposition: 
+2025-09-03 12:19:59,980 - INFO - Procesando parte del email:
+2025-09-03 12:19:59,981 - INFO -   Content-Type: image/png
+2025-09-03 12:19:59,981 - INFO -   Content-Disposition: 
+2025-09-03 12:19:59,981 - INFO - Procesando parte del email:
+2025-09-03 12:19:59,981 - INFO -   Content-Type: application/pdf
+2025-09-03 12:19:59,982 - INFO -   Content-Disposition: attachment;
+	filename="FACTURA_0209202501099284045500110010010000062671234567813.pdf"
+2025-09-03 12:19:59,982 - INFO -   Filename detectado: FACTURA_0209202501099284045500110010010000062671234567813.pdf
+2025-09-03 12:19:59,984 - INFO - ✅ Validación exitosa: FACTURA_0209202501099284045500110010010000062671234567813.pdf - Tipo detectado: PDF
+2025-09-03 12:19:59,985 - INFO - ✅ Adjunto extraído: FACTURA_0209202501099284045500110010010000062671234567813.pdf (38596 bytes)
+2025-09-03 12:19:59,985 - INFO - Procesando parte del email:
+2025-09-03 12:19:59,985 - INFO -   Content-Type: application/xml
+2025-09-03 12:19:59,985 - INFO -   Content-Disposition: attachment;
+	filename="FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml"
+2025-09-03 12:19:59,985 - INFO -   Filename detectado: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml
+2025-09-03 12:19:59,986 - INFO - ✅ Validación exitosa: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml - Tipo detectado: XML
+2025-09-03 12:19:59,986 - INFO - ✅ Adjunto extraído: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml (9994 bytes)
+2025-09-03 12:19:59,987 - INFO - 📎 Total de adjuntos extraídos: 2
+2025-09-03 12:19:59,987 - INFO -    - FACTURA_0209202501099284045500110010010000062671234567813.pdf: 38596 bytes, tipo detectado: PDF
+2025-09-03 12:19:59,987 - INFO -    - FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml: 9994 bytes, tipo detectado: XML
+2025-09-03 12:19:59,987 - INFO - Adjuntos encontrados: ['FACTURA_0209202501099284045500110010010000062671234567813.pdf', 'FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml']
+2025-09-03 12:19:59,987 - INFO - Procesando adjunto: FACTURA_0209202501099284045500110010010000062671234567813.pdf
+2025-09-03 12:19:59,987 - INFO - Procesando adjunto: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml
+2025-09-03 12:19:59,992 - INFO - Contenido extraído del CDATA:
+<?xml version="1.0" encoding="utf-8"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>1</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>WEBPOS S.A.</razonSocial>
+    <nombreComercial>WEBPOS S.A</nombreComercial>
+    <ruc>0992840455001</ruc>
+    <claveAcceso>0209202501099284045500110010010000062671234567813</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>000006267</secuencial>
+    <dirMatriz>Voz Andes 
+2025-09-03 12:19:59,994 - INFO - Campo encontrado: 'NOTA' -> 'nota'
+2025-09-03 12:19:59,994 - INFO - Campo encontrado: 'vendedor ' -> 'vendedor'
+2025-09-03 12:19:59,994 - INFO - Campo encontrado: 'correo ' -> 'correo'
+2025-09-03 12:19:59,994 - INFO - Campo encontrado: 'ciudad ' -> 'ciudad'
+2025-09-03 12:19:59,995 - INFO - Campo encontrado: 'Email' -> 'email'
+2025-09-03 12:19:59,995 - INFO - Email encontrado: Cmontaluisa@webposonline.net
+2025-09-03 12:19:59,995 - INFO - Clave de acceso: 0209202501099284045500110010010000062671234567813
+2025-09-03 12:19:59,995 - INFO - Total con impuestos: 1.15
+2025-09-03 12:19:59,996 - INFO - Razón social comprador: MONTALUISA BAÑO CARLOS ALBERTO
+2025-09-03 12:19:59,996 - INFO - Razón social: WEBPOS S.A.
+2025-09-03 12:19:59,996 - INFO - Fecha emisión: 02/09/2025
+2025-09-03 12:19:59,997 - INFO - Número factura/secuencial: 000006267
+2025-09-03 12:19:59,997 - INFO - Establecimiento: 001
+2025-09-03 12:19:59,997 - INFO - Punto de emisión: 001
+2025-09-03 12:19:59,998 - INFO - Código de documento: 01
+2025-09-03 12:19:59,999 - INFO - Tipo de emisión: 1
+2025-09-03 12:19:59,999 - INFO - === DATOS XML PROCESADOS EXITOSAMENTE ===
+2025-09-03 12:20:00,000 - INFO - Email destinatario: Cmontaluisa@webposonline.net
+2025-09-03 12:20:00,000 - INFO - Clave acceso: 0209202501099284045500110010010000062671234567813
+2025-09-03 12:20:00,001 - INFO - Total: 1.15
+2025-09-03 12:20:00,001 - INFO - Establecimiento: 001
+2025-09-03 12:20:00,002 - INFO - Punto emisión: 001
+2025-09-03 12:20:00,002 - INFO - Secuencial: 000006267
+2025-09-03 12:20:00,002 - INFO - Número autorización: 
+2025-09-03 12:20:00,003 - INFO - Código documento: 01
+2025-09-03 12:20:00,003 - INFO - Tipo emisión: 1
+2025-09-03 12:20:00,003 - INFO - Datos completos: {'email_destinatario': 'Cmontaluisa@webposonline.net', 'clave_acceso': '0209202501099284045500110010010000062671234567813', 'total_con_impuestos': '1.15', 'razon_social': 'WEBPOS S.A.', 'razon_social_comprador': 'MONTALUISA BAÑO CARLOS ALBERTO', 'fecha_emision': '02/09/2025', 'numero_factura': '000006267', 'estab': '001', 'pto_emi': '001', 'secuencial': '000006267', 'numero_autorizacion': '', 'codigo_documento': '01', 'tipo_emision': '1', 'fecha_autorizacion': '', 'estado_autorizacion': ''}
+2025-09-03 12:20:00,004 - INFO - Número de autorización (desde XML autorización): 0209202501099284045500110010010000062671234567813
+2025-09-03 12:20:00,004 - INFO - Fecha de autorización: 2025-09-02T12:10:28.000-05:00
+2025-09-03 12:20:00,004 - INFO - Estado autorización: AUTORIZADO
+2025-09-03 12:20:00,005 - INFO - Datos extraídos del XML: XMLData(email_destinatario='Cmontaluisa@webposonline.net', clave_acceso='0209202501099284045500110010010000062671234567813', total_con_impuestos='1.15', razon_social='WEBPOS S.A.', razon_social_comprador='MONTALUISA BAÑO CARLOS ALBERTO', fecha_emision='02/09/2025', numero_factura='000006267', estab='001', pto_emi='001', secuencial='000006267', numero_autorizacion='0209202501099284045500110010010000062671234567813', codigo_documento='01', tipo_emision='1', fecha_autorizacion='2025-09-02T12:10:28.000-05:00', estado_autorizacion='AUTORIZADO')
+2025-09-03 12:20:00,005 - INFO - Email destino para cliente: jalcoser@webpospanama.com
+2025-09-03 12:20:00,005 - INFO - === SERVICIO - CONTEXTO PARA PLANTILLAS ===
+2025-09-03 12:20:00,006 - INFO - Número de comprobante generado: 001-001-000006267
+2025-09-03 12:20:00,006 - INFO - Tipo de documento: 01 - Factura
+2025-09-03 12:20:00,007 - INFO - Tipo de emisión: 1 - Emisión Normal
+2025-09-03 12:20:00,007 - INFO - === ENVIANDO EMAIL DE PROCESSING (email_template.html) ===
+2025-09-03 12:20:00,022 - INFO - Preparando email para enviar. Destino: edelivery@webpossa.com, Asunto: '[TEST] XML Procesado - FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml'
+2025-09-03 12:20:03,099 - INFO - Email enviado exitosamente a: edelivery@webpossa.com
+2025-09-03 12:20:03,099 - INFO - Email de procesamiento enviado correctamente a edelivery@webpossa.com
+2025-09-03 12:20:03,100 - INFO - === ENVIANDO EMAIL DE CLIENTE (webpos_template.html) ===
+2025-09-03 12:20:03,463 - INFO - Preparando email para enviar. Destino: jalcoser@webpospanama.com, Asunto: 'Su Documento Electrónico - WebPOS'
+2025-09-03 12:20:07,506 - INFO - Email enviado exitosamente a: jalcoser@webpospanama.com
+2025-09-03 12:20:07,507 - INFO - Email de cliente enviado correctamente a jalcoser@webpospanama.com
+2025-09-03 12:41:12,099 - INFO - Servicio iniciado en modo: test
+2025-09-03 12:41:12,099 - INFO - Ejecutando servicio de monitoreo
+2025-09-03 12:41:12,099 - INFO - === INICIANDO SERVICIO - PROCESANDO EMAILS REALES ===
+2025-09-03 12:41:14,065 - INFO - Correos no leídos encontrados: 1
+2025-09-03 12:41:14,065 - INFO - Procesando email #1 de 1
+2025-09-03 12:41:14,065 - INFO - Procesando email de: =?ISO-8859-1?Q?WEBPOS_S=2EA_Doc=2E_Electr=F3nico?=<edelivery@webpossa.com>, Asunto: =?ISO-8859-1?Q?Su_Documento_Electr=F3nico?=
+2025-09-03 12:41:14,076 - INFO - Procesando parte del email:
+2025-09-03 12:41:14,076 - INFO -   Content-Type: multipart/mixed
+2025-09-03 12:41:14,076 - INFO -   Content-Disposition: 
+2025-09-03 12:41:14,076 - INFO - Procesando parte del email:
+2025-09-03 12:41:14,076 - INFO -   Content-Type: multipart/related
+2025-09-03 12:41:14,076 - INFO -   Content-Disposition: 
+2025-09-03 12:41:14,076 - INFO - Procesando parte del email:
+2025-09-03 12:41:14,076 - INFO -   Content-Type: text/html
+2025-09-03 12:41:14,076 - INFO -   Content-Disposition: 
+2025-09-03 12:41:14,076 - INFO - Procesando parte del email:
+2025-09-03 12:41:14,076 - INFO -   Content-Type: image/png
+2025-09-03 12:41:14,076 - INFO -   Content-Disposition: 
+2025-09-03 12:41:14,076 - INFO - Procesando parte del email:
+2025-09-03 12:41:14,076 - INFO -   Content-Type: image/png
+2025-09-03 12:41:14,076 - INFO -   Content-Disposition: 
+2025-09-03 12:41:14,076 - INFO - Procesando parte del email:
+2025-09-03 12:41:14,081 - INFO -   Content-Type: image/png
+2025-09-03 12:41:14,081 - INFO -   Content-Disposition: 
+2025-09-03 12:41:14,081 - INFO - Procesando parte del email:
+2025-09-03 12:41:14,081 - INFO -   Content-Type: image/png
+2025-09-03 12:41:14,081 - INFO -   Content-Disposition: 
+2025-09-03 12:41:14,082 - INFO - Procesando parte del email:
+2025-09-03 12:41:14,082 - INFO -   Content-Type: image/png
+2025-09-03 12:41:14,082 - INFO -   Content-Disposition: 
+2025-09-03 12:41:14,082 - INFO - Procesando parte del email:
+2025-09-03 12:41:14,083 - INFO -   Content-Type: application/pdf
+2025-09-03 12:41:14,083 - INFO -   Content-Disposition: attachment;
+	filename="FACTURA_0209202501099284045500110010010000062671234567813.pdf"
+2025-09-03 12:41:14,084 - INFO -   Filename detectado: FACTURA_0209202501099284045500110010010000062671234567813.pdf
+2025-09-03 12:41:14,085 - INFO - ✅ Validación exitosa: FACTURA_0209202501099284045500110010010000062671234567813.pdf - Tipo detectado: PDF
+2025-09-03 12:41:14,086 - INFO - ✅ Adjunto extraído: FACTURA_0209202501099284045500110010010000062671234567813.pdf (38596 bytes)
+2025-09-03 12:41:14,087 - INFO - Procesando parte del email:
+2025-09-03 12:41:14,088 - INFO -   Content-Type: application/xml
+2025-09-03 12:41:14,088 - INFO -   Content-Disposition: attachment;
+	filename="FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml"
+2025-09-03 12:41:14,089 - INFO -   Filename detectado: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml
+2025-09-03 12:41:14,089 - INFO - ✅ Validación exitosa: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml - Tipo detectado: XML
+2025-09-03 12:41:14,090 - INFO - ✅ Adjunto extraído: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml (9994 bytes)
+2025-09-03 12:41:14,090 - INFO - 📎 Total de adjuntos extraídos: 2
+2025-09-03 12:41:14,090 - INFO -    - FACTURA_0209202501099284045500110010010000062671234567813.pdf: 38596 bytes, tipo detectado: PDF
+2025-09-03 12:41:14,090 - INFO -    - FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml: 9994 bytes, tipo detectado: XML
+2025-09-03 12:41:14,092 - INFO - Adjuntos encontrados: ['FACTURA_0209202501099284045500110010010000062671234567813.pdf', 'FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml']
+2025-09-03 12:41:14,092 - INFO - Procesando adjunto: FACTURA_0209202501099284045500110010010000062671234567813.pdf
+2025-09-03 12:41:14,094 - INFO - Procesando adjunto: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml
+2025-09-03 12:41:14,098 - INFO - Contenido extraído del CDATA:
+<?xml version="1.0" encoding="utf-8"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>1</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>WEBPOS S.A.</razonSocial>
+    <nombreComercial>WEBPOS S.A</nombreComercial>
+    <ruc>0992840455001</ruc>
+    <claveAcceso>0209202501099284045500110010010000062671234567813</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>000006267</secuencial>
+    <dirMatriz>Voz Andes 
+2025-09-03 12:41:14,099 - INFO - Campo encontrado: 'NOTA' -> 'nota'
+2025-09-03 12:41:14,100 - INFO - Campo encontrado: 'vendedor ' -> 'vendedor'
+2025-09-03 12:41:14,100 - INFO - Campo encontrado: 'correo ' -> 'correo'
+2025-09-03 12:41:14,100 - INFO - Campo encontrado: 'ciudad ' -> 'ciudad'
+2025-09-03 12:41:14,100 - INFO - Campo encontrado: 'Email' -> 'email'
+2025-09-03 12:41:14,100 - INFO - Email encontrado: Cmontaluisa@webposonline.net
+2025-09-03 12:41:14,100 - INFO - Clave de acceso: 0209202501099284045500110010010000062671234567813
+2025-09-03 12:41:14,100 - INFO - Total con impuestos: 1.15
+2025-09-03 12:41:14,100 - INFO - Razón social comprador: MONTALUISA BAÑO CARLOS ALBERTO
+2025-09-03 12:41:14,100 - INFO - Razón social: WEBPOS S.A.
+2025-09-03 12:41:14,100 - INFO - Fecha emisión: 02/09/2025
+2025-09-03 12:41:14,100 - INFO - Número factura/secuencial: 000006267
+2025-09-03 12:41:14,100 - INFO - Establecimiento: 001
+2025-09-03 12:41:14,100 - INFO - Punto de emisión: 001
+2025-09-03 12:41:14,100 - INFO - Código de documento: 01
+2025-09-03 12:41:14,100 - INFO - Tipo de emisión: 1
+2025-09-03 12:41:14,100 - INFO - === DATOS XML PROCESADOS EXITOSAMENTE ===
+2025-09-03 12:41:14,100 - INFO - Email destinatario: Cmontaluisa@webposonline.net
+2025-09-03 12:41:14,100 - INFO - Clave acceso: 0209202501099284045500110010010000062671234567813
+2025-09-03 12:41:14,100 - INFO - Total: 1.15
+2025-09-03 12:41:14,100 - INFO - Establecimiento: 001
+2025-09-03 12:41:14,100 - INFO - Punto emisión: 001
+2025-09-03 12:41:14,100 - INFO - Secuencial: 000006267
+2025-09-03 12:41:14,100 - INFO - Número autorización: 
+2025-09-03 12:41:14,100 - INFO - Código documento: 01
+2025-09-03 12:41:14,100 - INFO - Tipo emisión: 1
+2025-09-03 12:41:14,100 - INFO - Datos completos: {'email_destinatario': 'Cmontaluisa@webposonline.net', 'clave_acceso': '0209202501099284045500110010010000062671234567813', 'total_con_impuestos': '1.15', 'razon_social': 'WEBPOS S.A.', 'razon_social_comprador': 'MONTALUISA BAÑO CARLOS ALBERTO', 'fecha_emision': '02/09/2025', 'numero_factura': '000006267', 'estab': '001', 'pto_emi': '001', 'secuencial': '000006267', 'numero_autorizacion': '', 'codigo_documento': '01', 'tipo_emision': '1', 'fecha_autorizacion': '', 'estado_autorizacion': ''}
+2025-09-03 12:41:14,100 - INFO - Número de autorización (desde XML autorización): 0209202501099284045500110010010000062671234567813
+2025-09-03 12:41:14,100 - INFO - Fecha de autorización: 2025-09-02T12:10:28.000-05:00
+2025-09-03 12:41:14,100 - INFO - Estado autorización: AUTORIZADO
+2025-09-03 12:41:14,100 - INFO - Datos extraídos del XML: XMLData(email_destinatario='Cmontaluisa@webposonline.net', clave_acceso='0209202501099284045500110010010000062671234567813', total_con_impuestos='1.15', razon_social='WEBPOS S.A.', razon_social_comprador='MONTALUISA BAÑO CARLOS ALBERTO', fecha_emision='02/09/2025', numero_factura='000006267', estab='001', pto_emi='001', secuencial='000006267', numero_autorizacion='0209202501099284045500110010010000062671234567813', codigo_documento='01', tipo_emision='1', fecha_autorizacion='2025-09-02T12:10:28.000-05:00', estado_autorizacion='AUTORIZADO')
+2025-09-03 12:41:14,100 - INFO - Email destino para cliente: jalcoser@webpospanama.com
+2025-09-03 12:41:14,100 - INFO - === SERVICIO - CONTEXTO PARA PLANTILLAS ===
+2025-09-03 12:41:14,100 - INFO - Número de comprobante generado: 001-001-000006267
+2025-09-03 12:41:14,100 - INFO - Tipo de documento: 01 - Factura
+2025-09-03 12:41:14,100 - INFO - Tipo de emisión: 1 - Emisión Normal
+2025-09-03 12:41:14,100 - INFO - === ENVIANDO EMAIL DE PROCESSING (email_template.html) ===
+2025-09-03 12:41:14,116 - INFO - Preparando email para enviar. Destino: edelivery@webpossa.com, Asunto: '[TEST] XML Procesado - FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml'
+2025-09-03 12:41:17,107 - INFO - Email enviado exitosamente a: edelivery@webpossa.com
+2025-09-03 12:41:17,107 - INFO - Email de procesamiento enviado correctamente a edelivery@webpossa.com
+2025-09-03 12:41:17,107 - INFO - === ENVIANDO EMAIL DE CLIENTE (webpos_template.html) ===
+2025-09-03 12:41:17,363 - INFO - Preparando email para enviar. Destino: jalcoser@webpospanama.com, Asunto: 'Su Documento Electrónico - WebPOS'
+2025-09-03 12:41:21,290 - INFO - Email enviado exitosamente a: jalcoser@webpospanama.com
+2025-09-03 12:41:21,290 - INFO - Email de cliente enviado correctamente a jalcoser@webpospanama.com
+2025-09-03 12:45:57,284 - INFO - Servicio iniciado en modo: test
+2025-09-03 12:45:57,284 - INFO - Ejecutando servicio de monitoreo
+2025-09-03 12:45:57,284 - INFO - === INICIANDO SERVICIO - PROCESANDO EMAILS REALES ===
+2025-09-03 12:45:59,361 - INFO - Correos no leídos encontrados: 1
+2025-09-03 12:45:59,362 - INFO - Procesando email #1 de 1
+2025-09-03 12:45:59,362 - INFO - Procesando email de: =?ISO-8859-1?Q?WEBPOS_S=2EA_Doc=2E_Electr=F3nico?=<edelivery@webpossa.com>, Asunto: =?ISO-8859-1?Q?Su_Documento_Electr=F3nico?=
+2025-09-03 12:45:59,362 - INFO - Procesando parte del email:
+2025-09-03 12:45:59,362 - INFO -   Content-Type: multipart/mixed
+2025-09-03 12:45:59,362 - INFO -   Content-Disposition: 
+2025-09-03 12:45:59,362 - INFO - Procesando parte del email:
+2025-09-03 12:45:59,363 - INFO -   Content-Type: multipart/related
+2025-09-03 12:45:59,363 - INFO -   Content-Disposition: 
+2025-09-03 12:45:59,363 - INFO - Procesando parte del email:
+2025-09-03 12:45:59,363 - INFO -   Content-Type: text/html
+2025-09-03 12:45:59,363 - INFO -   Content-Disposition: 
+2025-09-03 12:45:59,363 - INFO - Procesando parte del email:
+2025-09-03 12:45:59,363 - INFO -   Content-Type: image/png
+2025-09-03 12:45:59,364 - INFO -   Content-Disposition: 
+2025-09-03 12:45:59,364 - INFO - Procesando parte del email:
+2025-09-03 12:45:59,364 - INFO -   Content-Type: image/png
+2025-09-03 12:45:59,364 - INFO -   Content-Disposition: 
+2025-09-03 12:45:59,364 - INFO - Procesando parte del email:
+2025-09-03 12:45:59,365 - INFO -   Content-Type: image/png
+2025-09-03 12:45:59,365 - INFO -   Content-Disposition: 
+2025-09-03 12:45:59,365 - INFO - Procesando parte del email:
+2025-09-03 12:45:59,365 - INFO -   Content-Type: image/png
+2025-09-03 12:45:59,365 - INFO -   Content-Disposition: 
+2025-09-03 12:45:59,365 - INFO - Procesando parte del email:
+2025-09-03 12:45:59,365 - INFO -   Content-Type: image/png
+2025-09-03 12:45:59,366 - INFO -   Content-Disposition: 
+2025-09-03 12:45:59,366 - INFO - Procesando parte del email:
+2025-09-03 12:45:59,366 - INFO -   Content-Type: application/pdf
+2025-09-03 12:45:59,366 - INFO -   Content-Disposition: attachment;
+	filename="FACTURA_0209202501099284045500110010010000062671234567813.pdf"
+2025-09-03 12:45:59,366 - INFO -   Filename detectado: FACTURA_0209202501099284045500110010010000062671234567813.pdf
+2025-09-03 12:45:59,368 - INFO - ✅ Validación exitosa: FACTURA_0209202501099284045500110010010000062671234567813.pdf - Tipo detectado: PDF
+2025-09-03 12:45:59,368 - INFO - ✅ Adjunto extraído: FACTURA_0209202501099284045500110010010000062671234567813.pdf (38596 bytes)
+2025-09-03 12:45:59,370 - INFO - Procesando parte del email:
+2025-09-03 12:45:59,370 - INFO -   Content-Type: application/xml
+2025-09-03 12:45:59,370 - INFO -   Content-Disposition: attachment;
+	filename="FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml"
+2025-09-03 12:45:59,370 - INFO -   Filename detectado: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml
+2025-09-03 12:45:59,370 - INFO - ✅ Validación exitosa: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml - Tipo detectado: XML
+2025-09-03 12:45:59,371 - INFO - ✅ Adjunto extraído: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml (9994 bytes)
+2025-09-03 12:45:59,371 - INFO - 📎 Total de adjuntos extraídos: 2
+2025-09-03 12:45:59,372 - INFO -    - FACTURA_0209202501099284045500110010010000062671234567813.pdf: 38596 bytes, tipo detectado: PDF
+2025-09-03 12:45:59,372 - INFO -    - FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml: 9994 bytes, tipo detectado: XML
+2025-09-03 12:45:59,372 - INFO - Adjuntos encontrados: ['FACTURA_0209202501099284045500110010010000062671234567813.pdf', 'FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml']
+2025-09-03 12:45:59,373 - INFO - Procesando adjunto: FACTURA_0209202501099284045500110010010000062671234567813.pdf
+2025-09-03 12:45:59,373 - INFO - Procesando adjunto: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml
+2025-09-03 12:45:59,377 - INFO - Contenido extraído del CDATA:
+<?xml version="1.0" encoding="utf-8"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>1</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>WEBPOS S.A.</razonSocial>
+    <nombreComercial>WEBPOS S.A</nombreComercial>
+    <ruc>0992840455001</ruc>
+    <claveAcceso>0209202501099284045500110010010000062671234567813</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>000006267</secuencial>
+    <dirMatriz>Voz Andes 
+2025-09-03 12:45:59,377 - INFO - Campo encontrado: 'NOTA' -> 'nota'
+2025-09-03 12:45:59,380 - INFO - Campo encontrado: 'vendedor ' -> 'vendedor'
+2025-09-03 12:45:59,381 - INFO - Campo encontrado: 'correo ' -> 'correo'
+2025-09-03 12:45:59,381 - INFO - Campo encontrado: 'ciudad ' -> 'ciudad'
+2025-09-03 12:45:59,382 - INFO - Campo encontrado: 'Email' -> 'email'
+2025-09-03 12:45:59,382 - INFO - Email encontrado: Cmontaluisa@webposonline.net
+2025-09-03 12:45:59,383 - INFO - Clave de acceso: 0209202501099284045500110010010000062671234567813
+2025-09-03 12:45:59,383 - INFO - Total con impuestos: 1.15
+2025-09-03 12:45:59,383 - INFO - Razón social comprador: MONTALUISA BAÑO CARLOS ALBERTO
+2025-09-03 12:45:59,384 - INFO - Razón social: WEBPOS S.A.
+2025-09-03 12:45:59,384 - INFO - Fecha emisión: 02/09/2025
+2025-09-03 12:45:59,385 - INFO - Número factura/secuencial: 000006267
+2025-09-03 12:45:59,385 - INFO - Establecimiento: 001
+2025-09-03 12:45:59,385 - INFO - Punto de emisión: 001
+2025-09-03 12:45:59,385 - INFO - Código de documento: 01
+2025-09-03 12:45:59,386 - INFO - Tipo de emisión: 1
+2025-09-03 12:45:59,386 - INFO - === DATOS XML PROCESADOS EXITOSAMENTE ===
+2025-09-03 12:45:59,386 - INFO - Email destinatario: Cmontaluisa@webposonline.net
+2025-09-03 12:45:59,386 - INFO - Clave acceso: 0209202501099284045500110010010000062671234567813
+2025-09-03 12:45:59,386 - INFO - Total: 1.15
+2025-09-03 12:45:59,386 - INFO - Establecimiento: 001
+2025-09-03 12:45:59,386 - INFO - Punto emisión: 001
+2025-09-03 12:45:59,386 - INFO - Secuencial: 000006267
+2025-09-03 12:45:59,388 - INFO - Número autorización: 
+2025-09-03 12:45:59,388 - INFO - Código documento: 01
+2025-09-03 12:45:59,388 - INFO - Tipo emisión: 1
+2025-09-03 12:45:59,389 - INFO - Datos completos: {'email_destinatario': 'Cmontaluisa@webposonline.net', 'clave_acceso': '0209202501099284045500110010010000062671234567813', 'total_con_impuestos': '1.15', 'razon_social': 'WEBPOS S.A.', 'razon_social_comprador': 'MONTALUISA BAÑO CARLOS ALBERTO', 'fecha_emision': '02/09/2025', 'numero_factura': '000006267', 'estab': '001', 'pto_emi': '001', 'secuencial': '000006267', 'numero_autorizacion': '', 'codigo_documento': '01', 'tipo_emision': '1', 'fecha_autorizacion': '', 'estado_autorizacion': ''}
+2025-09-03 12:45:59,389 - INFO - Número de autorización (desde XML autorización): 0209202501099284045500110010010000062671234567813
+2025-09-03 12:45:59,389 - INFO - Fecha de autorización: 2025-09-02T12:10:28.000-05:00
+2025-09-03 12:45:59,390 - INFO - Estado autorización: AUTORIZADO
+2025-09-03 12:45:59,390 - INFO - Datos extraídos del XML: XMLData(email_destinatario='Cmontaluisa@webposonline.net', clave_acceso='0209202501099284045500110010010000062671234567813', total_con_impuestos='1.15', razon_social='WEBPOS S.A.', razon_social_comprador='MONTALUISA BAÑO CARLOS ALBERTO', fecha_emision='02/09/2025', numero_factura='000006267', estab='001', pto_emi='001', secuencial='000006267', numero_autorizacion='0209202501099284045500110010010000062671234567813', codigo_documento='01', tipo_emision='1', fecha_autorizacion='2025-09-02T12:10:28.000-05:00', estado_autorizacion='AUTORIZADO')
+2025-09-03 12:45:59,391 - INFO - Email destino para cliente: jalcoser@webpospanama.com
+2025-09-03 12:45:59,391 - INFO - === SERVICIO - CONTEXTO PARA PLANTILLAS ===
+2025-09-03 12:45:59,391 - INFO - Número de comprobante generado: 001-001-000006267
+2025-09-03 12:45:59,392 - INFO - Tipo de documento: 01 - Factura
+2025-09-03 12:45:59,392 - INFO - Tipo de emisión: 1 - Emisión Normal
+2025-09-03 12:45:59,392 - INFO - === ENVIANDO EMAIL DE PROCESSING (email_template.html) ===
+2025-09-03 12:45:59,406 - INFO - Preparando email para enviar. Destino: edelivery@webpossa.com, Asunto: '[TEST] XML Procesado - FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml'
+2025-09-03 12:45:59,406 - INFO - Email recuperado del XML: edelivery@webpossa.com
+2025-09-03 12:45:59,406 - INFO - Email al que se envió: edelivery@webpossa.com
+2025-09-03 12:46:02,411 - INFO - Email enviado exitosamente a: edelivery@webpossa.com
+2025-09-03 12:46:02,411 - INFO - Email de procesamiento enviado correctamente a edelivery@webpossa.com
+2025-09-03 12:46:02,411 - INFO - === ENVIANDO EMAIL DE CLIENTE (webpos_template.html) ===
+2025-09-03 12:46:02,626 - INFO - Preparando email para enviar. Destino: jalcoser@webpospanama.com, Asunto: 'Su Documento Electrónico - WebPOS'
+2025-09-03 12:46:02,626 - INFO - Email recuperado del XML: jalcoser@webpospanama.com
+2025-09-03 12:46:02,626 - INFO - Email al que se envió: jalcoser@webpospanama.com
+2025-09-03 12:46:06,466 - INFO - Email enviado exitosamente a: jalcoser@webpospanama.com
+2025-09-03 12:46:06,467 - INFO - Email de cliente enviado correctamente a jalcoser@webpospanama.com
+2025-09-03 12:47:52,184 - INFO - Servicio iniciado en modo: test
+2025-09-03 12:47:52,184 - INFO - Ejecutando servicio de monitoreo
+2025-09-03 12:47:52,184 - INFO - === INICIANDO SERVICIO - PROCESANDO EMAILS REALES ===
+2025-09-03 12:47:54,325 - INFO - Correos no leídos encontrados: 1
+2025-09-03 12:47:54,326 - INFO - Procesando email #1 de 1
+2025-09-03 12:47:54,326 - INFO - Procesando email de: =?ISO-8859-1?Q?WEBPOS_S=2EA_Doc=2E_Electr=F3nico?=<edelivery@webpossa.com>, Asunto: =?ISO-8859-1?Q?Su_Documento_Electr=F3nico?=
+2025-09-03 12:47:54,326 - INFO - Procesando parte del email:
+2025-09-03 12:47:54,327 - INFO -   Content-Type: multipart/mixed
+2025-09-03 12:47:54,327 - INFO -   Content-Disposition: 
+2025-09-03 12:47:54,327 - INFO - Procesando parte del email:
+2025-09-03 12:47:54,327 - INFO -   Content-Type: multipart/related
+2025-09-03 12:47:54,327 - INFO -   Content-Disposition: 
+2025-09-03 12:47:54,327 - INFO - Procesando parte del email:
+2025-09-03 12:47:54,327 - INFO -   Content-Type: text/html
+2025-09-03 12:47:54,328 - INFO -   Content-Disposition: 
+2025-09-03 12:47:54,328 - INFO - Procesando parte del email:
+2025-09-03 12:47:54,329 - INFO -   Content-Type: image/png
+2025-09-03 12:47:54,329 - INFO -   Content-Disposition: 
+2025-09-03 12:47:54,330 - INFO - Procesando parte del email:
+2025-09-03 12:47:54,330 - INFO -   Content-Type: image/png
+2025-09-03 12:47:54,330 - INFO -   Content-Disposition: 
+2025-09-03 12:47:54,330 - INFO - Procesando parte del email:
+2025-09-03 12:47:54,330 - INFO -   Content-Type: image/png
+2025-09-03 12:47:54,330 - INFO -   Content-Disposition: 
+2025-09-03 12:47:54,331 - INFO - Procesando parte del email:
+2025-09-03 12:47:54,331 - INFO -   Content-Type: image/png
+2025-09-03 12:47:54,331 - INFO -   Content-Disposition: 
+2025-09-03 12:47:54,331 - INFO - Procesando parte del email:
+2025-09-03 12:47:54,331 - INFO -   Content-Type: image/png
+2025-09-03 12:47:54,332 - INFO -   Content-Disposition: 
+2025-09-03 12:47:54,332 - INFO - Procesando parte del email:
+2025-09-03 12:47:54,332 - INFO -   Content-Type: application/pdf
+2025-09-03 12:47:54,333 - INFO -   Content-Disposition: attachment;
+	filename="FACTURA_0209202501099284045500110010010000062671234567813.pdf"
+2025-09-03 12:47:54,333 - INFO -   Filename detectado: FACTURA_0209202501099284045500110010010000062671234567813.pdf
+2025-09-03 12:47:54,333 - INFO - ✅ Validación exitosa: FACTURA_0209202501099284045500110010010000062671234567813.pdf - Tipo detectado: PDF
+2025-09-03 12:47:54,334 - INFO - ✅ Adjunto extraído: FACTURA_0209202501099284045500110010010000062671234567813.pdf (38596 bytes)
+2025-09-03 12:47:54,334 - INFO - Procesando parte del email:
+2025-09-03 12:47:54,335 - INFO -   Content-Type: application/xml
+2025-09-03 12:47:54,335 - INFO -   Content-Disposition: attachment;
+	filename="FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml"
+2025-09-03 12:47:54,335 - INFO -   Filename detectado: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml
+2025-09-03 12:47:54,336 - INFO - ✅ Validación exitosa: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml - Tipo detectado: XML
+2025-09-03 12:47:54,336 - INFO - ✅ Adjunto extraído: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml (9994 bytes)
+2025-09-03 12:47:54,337 - INFO - 📎 Total de adjuntos extraídos: 2
+2025-09-03 12:47:54,337 - INFO -    - FACTURA_0209202501099284045500110010010000062671234567813.pdf: 38596 bytes, tipo detectado: PDF
+2025-09-03 12:47:54,337 - INFO -    - FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml: 9994 bytes, tipo detectado: XML
+2025-09-03 12:47:54,338 - INFO - Adjuntos encontrados: ['FACTURA_0209202501099284045500110010010000062671234567813.pdf', 'FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml']
+2025-09-03 12:47:54,338 - INFO - Procesando adjunto: FACTURA_0209202501099284045500110010010000062671234567813.pdf
+2025-09-03 12:47:54,338 - INFO - Procesando adjunto: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml
+2025-09-03 12:47:54,339 - INFO - Contenido extraído del CDATA:
+<?xml version="1.0" encoding="utf-8"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>1</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>WEBPOS S.A.</razonSocial>
+    <nombreComercial>WEBPOS S.A</nombreComercial>
+    <ruc>0992840455001</ruc>
+    <claveAcceso>0209202501099284045500110010010000062671234567813</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>000006267</secuencial>
+    <dirMatriz>Voz Andes 
+2025-09-03 12:47:54,340 - INFO - Campo encontrado: 'NOTA' -> 'nota'
+2025-09-03 12:47:54,341 - INFO - Campo encontrado: 'vendedor ' -> 'vendedor'
+2025-09-03 12:47:54,342 - INFO - Campo encontrado: 'correo ' -> 'correo'
+2025-09-03 12:47:54,343 - INFO - Campo encontrado: 'ciudad ' -> 'ciudad'
+2025-09-03 12:47:54,343 - INFO - Campo encontrado: 'Email' -> 'email'
+2025-09-03 12:47:54,343 - INFO - Email encontrado: Cmontaluisa@webposonline.net
+2025-09-03 12:47:54,344 - INFO - Clave de acceso: 0209202501099284045500110010010000062671234567813
+2025-09-03 12:47:54,344 - INFO - Total con impuestos: 1.15
+2025-09-03 12:47:54,345 - INFO - Razón social comprador: MONTALUISA BAÑO CARLOS ALBERTO
+2025-09-03 12:47:54,345 - INFO - Razón social: WEBPOS S.A.
+2025-09-03 12:47:54,346 - INFO - Fecha emisión: 02/09/2025
+2025-09-03 12:47:54,346 - INFO - Número factura/secuencial: 000006267
+2025-09-03 12:47:54,346 - INFO - Establecimiento: 001
+2025-09-03 12:47:54,347 - INFO - Punto de emisión: 001
+2025-09-03 12:47:54,348 - INFO - Código de documento: 01
+2025-09-03 12:47:54,348 - INFO - Tipo de emisión: 1
+2025-09-03 12:47:54,348 - INFO - === DATOS XML PROCESADOS EXITOSAMENTE ===
+2025-09-03 12:47:54,349 - INFO - Email destinatario: Cmontaluisa@webposonline.net
+2025-09-03 12:47:54,349 - INFO - Clave acceso: 0209202501099284045500110010010000062671234567813
+2025-09-03 12:47:54,349 - INFO - Total: 1.15
+2025-09-03 12:47:54,350 - INFO - Establecimiento: 001
+2025-09-03 12:47:54,350 - INFO - Punto emisión: 001
+2025-09-03 12:47:54,350 - INFO - Secuencial: 000006267
+2025-09-03 12:47:54,351 - INFO - Número autorización: 
+2025-09-03 12:47:54,351 - INFO - Código documento: 01
+2025-09-03 12:47:54,351 - INFO - Tipo emisión: 1
+2025-09-03 12:47:54,352 - INFO - Datos completos: {'email_destinatario': 'Cmontaluisa@webposonline.net', 'clave_acceso': '0209202501099284045500110010010000062671234567813', 'total_con_impuestos': '1.15', 'razon_social': 'WEBPOS S.A.', 'razon_social_comprador': 'MONTALUISA BAÑO CARLOS ALBERTO', 'fecha_emision': '02/09/2025', 'numero_factura': '000006267', 'estab': '001', 'pto_emi': '001', 'secuencial': '000006267', 'numero_autorizacion': '', 'codigo_documento': '01', 'tipo_emision': '1', 'fecha_autorizacion': '', 'estado_autorizacion': ''}
+2025-09-03 12:47:54,352 - INFO - Número de autorización (desde XML autorización): 0209202501099284045500110010010000062671234567813
+2025-09-03 12:47:54,353 - INFO - Fecha de autorización: 2025-09-02T12:10:28.000-05:00
+2025-09-03 12:47:54,353 - INFO - Estado autorización: AUTORIZADO
+2025-09-03 12:47:54,353 - INFO - Datos extraídos del XML: XMLData(email_destinatario='Cmontaluisa@webposonline.net', clave_acceso='0209202501099284045500110010010000062671234567813', total_con_impuestos='1.15', razon_social='WEBPOS S.A.', razon_social_comprador='MONTALUISA BAÑO CARLOS ALBERTO', fecha_emision='02/09/2025', numero_factura='000006267', estab='001', pto_emi='001', secuencial='000006267', numero_autorizacion='0209202501099284045500110010010000062671234567813', codigo_documento='01', tipo_emision='1', fecha_autorizacion='2025-09-02T12:10:28.000-05:00', estado_autorizacion='AUTORIZADO')
+2025-09-03 12:47:54,355 - INFO - Email destino para cliente: jalcoser@webpospanama.com
+2025-09-03 12:47:54,356 - INFO - === SERVICIO - CONTEXTO PARA PLANTILLAS ===
+2025-09-03 12:47:54,356 - INFO - Número de comprobante generado: 001-001-000006267
+2025-09-03 12:47:54,357 - INFO - Tipo de documento: 01 - Factura
+2025-09-03 12:47:54,357 - INFO - Tipo de emisión: 1 - Emisión Normal
+2025-09-03 12:47:54,357 - INFO - === ENVIANDO EMAIL DE PROCESSING (email_template.html) ===
+2025-09-03 12:47:54,373 - INFO - Preparando email para enviar. Destino: edelivery@webpossa.com, Asunto: '[TEST] XML Procesado - FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml'
+2025-09-03 12:47:54,374 - INFO - Email recuperado del XML: edelivery@webpossa.com
+2025-09-03 12:47:54,374 - INFO - Email al que se envió: edelivery@webpossa.com
+2025-09-03 12:47:54,374 - INFO - Email confirmation (CC): webpos.soporte@gmail.com
+2025-09-03 12:47:57,482 - INFO - Email enviado exitosamente a: edelivery@webpossa.com
+2025-09-03 12:47:57,482 - INFO - Email de procesamiento enviado correctamente a edelivery@webpossa.com
+2025-09-03 12:47:57,482 - INFO - === ENVIANDO EMAIL DE CLIENTE (webpos_template.html) ===
+2025-09-03 12:47:57,697 - INFO - Preparando email para enviar. Destino: jalcoser@webpospanama.com, Asunto: 'Su Documento Electrónico - WebPOS'
+2025-09-03 12:47:57,697 - INFO - Email recuperado del XML: jalcoser@webpospanama.com
+2025-09-03 12:47:57,697 - INFO - Email al que se envió: jalcoser@webpospanama.com
+2025-09-03 12:47:57,697 - INFO - Email confirmation (CC): webpos.soporte@gmail.com
+2025-09-03 12:48:01,825 - INFO - Email enviado exitosamente a: jalcoser@webpospanama.com
+2025-09-03 12:48:01,825 - INFO - Email de cliente enviado correctamente a jalcoser@webpospanama.com
+2025-09-03 12:52:10,617 - INFO - Servicio iniciado en modo: test
+2025-09-03 12:52:10,617 - INFO - Ejecutando servicio de monitoreo
+2025-09-03 12:52:10,617 - INFO - === INICIANDO SERVICIO - PROCESANDO EMAILS REALES ===
+2025-09-03 12:52:12,587 - INFO - Correos no leídos encontrados: 1
+2025-09-03 12:52:12,587 - INFO - Procesando email #1 de 1
+2025-09-03 12:52:12,587 - INFO - Procesando email de: =?ISO-8859-1?Q?WEBPOS_S=2EA_Doc=2E_Electr=F3nico?=<edelivery@webpossa.com>, Asunto: =?ISO-8859-1?Q?Su_Documento_Electr=F3nico?=
+2025-09-03 12:52:12,587 - INFO - Procesando parte del email:
+2025-09-03 12:52:12,587 - INFO -   Content-Type: multipart/mixed
+2025-09-03 12:52:12,587 - INFO -   Content-Disposition: 
+2025-09-03 12:52:12,587 - INFO - Procesando parte del email:
+2025-09-03 12:52:12,587 - INFO -   Content-Type: multipart/related
+2025-09-03 12:52:12,603 - INFO -   Content-Disposition: 
+2025-09-03 12:52:12,603 - INFO - Procesando parte del email:
+2025-09-03 12:52:12,603 - INFO -   Content-Type: text/html
+2025-09-03 12:52:12,603 - INFO -   Content-Disposition: 
+2025-09-03 12:52:12,603 - INFO - Procesando parte del email:
+2025-09-03 12:52:12,603 - INFO -   Content-Type: image/png
+2025-09-03 12:52:12,603 - INFO -   Content-Disposition: 
+2025-09-03 12:52:12,608 - INFO - Procesando parte del email:
+2025-09-03 12:52:12,609 - INFO -   Content-Type: image/png
+2025-09-03 12:52:12,609 - INFO -   Content-Disposition: 
+2025-09-03 12:52:12,610 - INFO - Procesando parte del email:
+2025-09-03 12:52:12,611 - INFO -   Content-Type: image/png
+2025-09-03 12:52:12,611 - INFO -   Content-Disposition: 
+2025-09-03 12:52:12,611 - INFO - Procesando parte del email:
+2025-09-03 12:52:12,611 - INFO -   Content-Type: image/png
+2025-09-03 12:52:12,612 - INFO -   Content-Disposition: 
+2025-09-03 12:52:12,612 - INFO - Procesando parte del email:
+2025-09-03 12:52:12,612 - INFO -   Content-Type: image/png
+2025-09-03 12:52:12,612 - INFO -   Content-Disposition: 
+2025-09-03 12:52:12,613 - INFO - Procesando parte del email:
+2025-09-03 12:52:12,613 - INFO -   Content-Type: application/pdf
+2025-09-03 12:52:12,613 - INFO -   Content-Disposition: attachment;
+	filename="FACTURA_0209202501099284045500110010010000062671234567813.pdf"
+2025-09-03 12:52:12,614 - INFO -   Filename detectado: FACTURA_0209202501099284045500110010010000062671234567813.pdf
+2025-09-03 12:52:12,614 - INFO - ✅ Validación exitosa: FACTURA_0209202501099284045500110010010000062671234567813.pdf - Tipo detectado: PDF
+2025-09-03 12:52:12,615 - INFO - ✅ Adjunto extraído: FACTURA_0209202501099284045500110010010000062671234567813.pdf (38596 bytes)
+2025-09-03 12:52:12,615 - INFO - Procesando parte del email:
+2025-09-03 12:52:12,615 - INFO -   Content-Type: application/xml
+2025-09-03 12:52:12,615 - INFO -   Content-Disposition: attachment;
+	filename="FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml"
+2025-09-03 12:52:12,616 - INFO -   Filename detectado: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml
+2025-09-03 12:52:12,617 - INFO - ✅ Validación exitosa: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml - Tipo detectado: XML
+2025-09-03 12:52:12,617 - INFO - ✅ Adjunto extraído: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml (9994 bytes)
+2025-09-03 12:52:12,618 - INFO - 📎 Total de adjuntos extraídos: 2
+2025-09-03 12:52:12,618 - INFO -    - FACTURA_0209202501099284045500110010010000062671234567813.pdf: 38596 bytes, tipo detectado: PDF
+2025-09-03 12:52:12,618 - INFO -    - FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml: 9994 bytes, tipo detectado: XML
+2025-09-03 12:52:12,619 - INFO - Adjuntos encontrados: ['FACTURA_0209202501099284045500110010010000062671234567813.pdf', 'FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml']
+2025-09-03 12:52:12,619 - INFO - Procesando adjunto: FACTURA_0209202501099284045500110010010000062671234567813.pdf
+2025-09-03 12:52:12,619 - INFO - Procesando adjunto: FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml
+2025-09-03 12:52:12,620 - INFO - Contenido extraído del CDATA:
+<?xml version="1.0" encoding="utf-8"?>
+<factura id="comprobante" version="1.1.0">
+  <infoTributaria>
+    <ambiente>1</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>WEBPOS S.A.</razonSocial>
+    <nombreComercial>WEBPOS S.A</nombreComercial>
+    <ruc>0992840455001</ruc>
+    <claveAcceso>0209202501099284045500110010010000062671234567813</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>000006267</secuencial>
+    <dirMatriz>Voz Andes 
+2025-09-03 12:52:12,620 - INFO - Campo encontrado: 'NOTA' -> 'nota'
+2025-09-03 12:52:12,621 - INFO - Campo encontrado: 'vendedor ' -> 'vendedor'
+2025-09-03 12:52:12,621 - INFO - Campo encontrado: 'correo ' -> 'correo'
+2025-09-03 12:52:12,621 - INFO - Campo encontrado: 'ciudad ' -> 'ciudad'
+2025-09-03 12:52:12,621 - INFO - Campo encontrado: 'Email' -> 'email'
+2025-09-03 12:52:12,621 - INFO - Email encontrado: Cmontaluisa@webposonline.net
+2025-09-03 12:52:12,621 - INFO - Clave de acceso: 0209202501099284045500110010010000062671234567813
+2025-09-03 12:52:12,621 - INFO - Total con impuestos: 1.15
+2025-09-03 12:52:12,621 - INFO - Razón social comprador: MONTALUISA BAÑO CARLOS ALBERTO
+2025-09-03 12:52:12,621 - INFO - Razón social: WEBPOS S.A.
+2025-09-03 12:52:12,621 - INFO - Fecha emisión: 02/09/2025
+2025-09-03 12:52:12,623 - INFO - Número factura/secuencial: 000006267
+2025-09-03 12:52:12,623 - INFO - Establecimiento: 001
+2025-09-03 12:52:12,623 - INFO - Punto de emisión: 001
+2025-09-03 12:52:12,623 - INFO - Código de documento: 01
+2025-09-03 12:52:12,623 - INFO - Tipo de emisión: 1
+2025-09-03 12:52:12,623 - INFO - === DATOS XML PROCESADOS EXITOSAMENTE ===
+2025-09-03 12:52:12,623 - INFO - Email destinatario: Cmontaluisa@webposonline.net
+2025-09-03 12:52:12,623 - INFO - Clave acceso: 0209202501099284045500110010010000062671234567813
+2025-09-03 12:52:12,623 - INFO - Total: 1.15
+2025-09-03 12:52:12,623 - INFO - Establecimiento: 001
+2025-09-03 12:52:12,623 - INFO - Punto emisión: 001
+2025-09-03 12:52:12,623 - INFO - Secuencial: 000006267
+2025-09-03 12:52:12,623 - INFO - Número autorización: 
+2025-09-03 12:52:12,623 - INFO - Código documento: 01
+2025-09-03 12:52:12,623 - INFO - Tipo emisión: 1
+2025-09-03 12:52:12,623 - INFO - Datos completos: {'email_destinatario': 'Cmontaluisa@webposonline.net', 'clave_acceso': '0209202501099284045500110010010000062671234567813', 'total_con_impuestos': '1.15', 'razon_social': 'WEBPOS S.A.', 'razon_social_comprador': 'MONTALUISA BAÑO CARLOS ALBERTO', 'fecha_emision': '02/09/2025', 'numero_factura': '000006267', 'estab': '001', 'pto_emi': '001', 'secuencial': '000006267', 'numero_autorizacion': '', 'codigo_documento': '01', 'tipo_emision': '1', 'fecha_autorizacion': '', 'estado_autorizacion': ''}
+2025-09-03 12:52:12,623 - INFO - Número de autorización (desde XML autorización): 0209202501099284045500110010010000062671234567813
+2025-09-03 12:52:12,623 - INFO - Fecha de autorización: 2025-09-02T12:10:28.000-05:00
+2025-09-03 12:52:12,623 - INFO - Estado autorización: AUTORIZADO
+2025-09-03 12:52:12,623 - INFO - Datos extraídos del XML: XMLData(email_destinatario='Cmontaluisa@webposonline.net', clave_acceso='0209202501099284045500110010010000062671234567813', total_con_impuestos='1.15', razon_social='WEBPOS S.A.', razon_social_comprador='MONTALUISA BAÑO CARLOS ALBERTO', fecha_emision='02/09/2025', numero_factura='000006267', estab='001', pto_emi='001', secuencial='000006267', numero_autorizacion='0209202501099284045500110010010000062671234567813', codigo_documento='01', tipo_emision='1', fecha_autorizacion='2025-09-02T12:10:28.000-05:00', estado_autorizacion='AUTORIZADO')
+2025-09-03 12:52:12,623 - INFO - Email destino para cliente: jalcoser@webpospanama.com
+2025-09-03 12:52:12,623 - INFO - === SERVICIO - CONTEXTO PARA PLANTILLAS ===
+2025-09-03 12:52:12,623 - INFO - Número de comprobante generado: 001-001-000006267
+2025-09-03 12:52:12,623 - INFO - Tipo de documento: 01 - Factura
+2025-09-03 12:52:12,623 - INFO - Tipo de emisión: 1 - Emisión Normal
+2025-09-03 12:52:12,623 - INFO - === ENVIANDO EMAIL DE PROCESSING (email_template.html) ===
+2025-09-03 12:52:12,639 - INFO - Preparando email para enviar. Destino: edelivery@webpossa.com, Asunto: '[TEST] XML Procesado - FACTURA_0209202501099284045500110010010000062671234567813_AUTORIZADO.xml'
+2025-09-03 12:52:12,639 - INFO - Email recuperado del XML: edelivery@webpossa.com
+2025-09-03 12:52:12,639 - INFO - Email al que se envió: edelivery@webpossa.com
+2025-09-03 12:52:12,640 - INFO - Email confirmation (CC): webpos.soporte@gmail.com
+2025-09-03 12:52:15,703 - INFO - Email enviado exitosamente a: edelivery@webpossa.com
+2025-09-03 12:52:15,703 - INFO - Email de procesamiento enviado correctamente a edelivery@webpossa.com
+2025-09-03 12:52:15,703 - INFO - === ENVIANDO EMAIL DE CLIENTE (webpos_template.html) ===
+2025-09-03 12:52:15,790 - INFO - Preparando email para enviar. Destino: jalcoser@webpospanama.com, Asunto: 'Su Documento Electrónico - WebPOS'
+2025-09-03 12:52:15,790 - INFO - Email recuperado del XML: jalcoser@webpospanama.com
+2025-09-03 12:52:15,790 - INFO - Email al que se envió: jalcoser@webpospanama.com
+2025-09-03 12:52:15,790 - INFO - Email confirmation (CC): webpos.soporte@gmail.com
+2025-09-03 12:52:19,772 - INFO - Email enviado exitosamente a: jalcoser@webpospanama.com
+2025-09-03 12:52:19,772 - INFO - Email de cliente enviado correctamente a jalcoser@webpospanama.com

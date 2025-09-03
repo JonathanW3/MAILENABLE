@@ -77,3 +77,17 @@ python main.py --mode monitor --email-sender "sri@sri.gob.ec" --email-subject "A
 
 
 ✅ Con `--interval 0` el programa procesa solo una vez y termina (ideal para pruebas rápidas). Con intervalos mayores a 0 se queda en modo monitoreo.
+
+
+
+# Construir la imagen
+docker build -t email-xml-service .
+
+# Etiquetar la imagen para Docker Hub
+docker tag email-xml-service jonathan948/email-xml-service:V1.2
+
+# Subir la imagen a Docker Hub
+docker push jonathan948/email-xml-service:V1.2
+
+# Ejecutar el contenedor (sin exponer puertos)
+docker run -d --name email-xml-service --env-file .env jonathan948/email-xml-service:V1.2
