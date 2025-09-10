@@ -60,12 +60,3 @@ def generar_pdf(xml_file, pdf_file=None):
 
     return pdf_bytes
 
-# ejecutar
-generar_pdf(
-    "FACTURA_0708202501099284045500120010010000062191234567816_AUTORIZADO_1.xml",
-    "factura_generada.pdf"
-)
-
-# Ejemplo de uso para adjuntar en correo:
-# pdf_bytes = generar_pdf("factura.xml")
-# send_email(..., attachments=[("factura.pdf", pdf_bytes)])

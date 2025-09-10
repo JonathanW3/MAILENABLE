@@ -95,20 +95,20 @@ class EmailXMLProcessor:
         return emails
 
     def send_email(self, to_email: str, subject: str, html_content: str,
-                   attachments: List[Tuple[str, bytes]] = None) -> bool:
+                   attachments: List[Tuple[str, bytes]] = None, add_confirmation_cc: bool = True) -> bool:
         try:
             logger.info(f"Preparando email para enviar. Destino: {to_email}, Asunto: '{subject}'")
             confirmation_email = getattr(settings, 'CONFIRMATION_EMAIL', None)
             logger.info(f"Email recuperado del XML: {to_email}")
             logger.info(f"Email al que se envió: {to_email}")
-            if confirmation_email:
+            if confirmation_email and add_confirmation_cc:
                 logger.info(f"Email confirmation (CC): {confirmation_email}")
             msg = MIMEMultipart('alternative')
             msg['From'] = self.config.smtp_user
             msg['To'] = to_email
             msg['Subject'] = subject
-            if confirmation_email:
-                msg['Bcc'] = confirmation_email
+            if confirmation_email and add_confirmation_cc:
+                msg['Cc'] = confirmation_email
             msg.attach(MIMEText(html_content, 'html', 'utf-8'))
 
             if attachments:
@@ -211,7 +211,8 @@ class EmailXMLProcessor:
         result_proc = self.send_email(
             self.config.smtp_user, 
             f"[{self.environment.upper()}] XML Procesado - {xml_filename}", 
-            processing_html
+            processing_html,
+            add_confirmation_cc=False
         )
         if result_proc:
             logger.info(f"Email de procesamiento enviado correctamente a {self.config.smtp_user}")
@@ -232,9 +233,19 @@ class EmailXMLProcessor:
             client_attachments.append(xml_attachment)
         # Limpiar PDFs antes de adjuntar
         from core.pdf_cleaner import limpiar_logo_pdf
+        confirmation_email = getattr(settings, 'CONFIRMATION_EMAIL', None)
         for filename, content in pdf_attachments:
             pdf_limpio = limpiar_logo_pdf(content)
             client_attachments.append((filename, pdf_limpio))
+
+        # Log de archivos adjuntos y hora de envío
+        hora_envio = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        archivos = [fn for fn, _ in client_attachments]
+        logger.info(f"Hora de envío: {hora_envio}")
+        logger.info(f"Archivos enviados: {archivos}")
+        logger.info(f"Email destino: {destination_email}")
+        if confirmation_email:
+            logger.info(f"Email CC: {confirmation_email}")
 
         result_client = self.send_email(
             destination_email, 

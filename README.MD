@@ -84,10 +84,10 @@ python main.py --mode monitor --email-sender "sri@sri.gob.ec" --email-subject "A
 docker build -t email-xml-service .
 
 # Etiquetar la imagen para Docker Hub
-docker tag email-xml-service jonathan948/email-xml-service:V1.2
+docker tag email-xml-service jonathan948/email-xml-service:V1.4
 
 # Subir la imagen a Docker Hub
-docker push jonathan948/email-xml-service:V1.2
+docker push jonathan948/email-xml-service:V1.4
 
 # Ejecutar el contenedor (sin exponer puertos)
-docker run -d --name email-xml-service --env-file .env jonathan948/email-xml-service:V1.2
+docker run -d --name email-xml-service jonathan948/email-xml-service:V1.4
