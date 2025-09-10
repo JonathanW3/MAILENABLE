@@ -18,6 +18,7 @@ from core.xml_data import XMLData
 from services.attachment_handler import extract_attachments
 from services.xml_processor import process_xml_file
 from services.templates_service import render_processing_template, render_client_template, TemplatesService
+from core.perseo_remove import limpiar_perseo_pdf_bytes
 
 class EmailXMLProcessor:
     def __init__(self):
@@ -231,13 +232,13 @@ class EmailXMLProcessor:
         client_attachments = []
         if xml_attachment:
             client_attachments.append(xml_attachment)
-        # Limpiar PDFs antes de adjuntar
-        from core.pdf_cleaner import limpiar_logo_pdf
-        confirmation_email = getattr(settings, 'CONFIRMATION_EMAIL', None)
+        # Limpiar PDFs antes de adjuntar usando perseo_remove
+        
         for filename, content in pdf_attachments:
-            pdf_limpio = limpiar_logo_pdf(content)
+            pdf_limpio = limpiar_perseo_pdf_bytes(content)
             client_attachments.append((filename, pdf_limpio))
 
+        confirmation_email = getattr(settings, 'CONFIRMATION_EMAIL', None)
         # Log de archivos adjuntos y hora de envío
         hora_envio = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         archivos = [fn for fn, _ in client_attachments]

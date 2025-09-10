@@ -9,6 +9,7 @@ import os
 import sys
 from typing import List, Tuple, Optional
 import re
+import io
 
 class PerseoLogoRemover:
     def __init__(self):
@@ -24,9 +25,9 @@ class PerseoLogoRemover:
         # Área típica donde suele aparecer el logo (parte superior de la página)
         # Estos valores se pueden ajustar según sea necesario
         self.logo_search_area = {
-            'top_margin': 100,  # Píxeles desde arriba
-            'left_margin': 50,   # Píxeles desde la izquierda
-            'right_margin': 50,  # Píxeles desde la derecha
+            'bottom_margin': 100,  # Píxeles desde abajo donde buscar el logo
+            'left_margin': 50,     # Píxeles desde la izquierda
+            'right_margin': 50,    # Píxeles desde la derecha
         }
     
     def detect_perseo_elements(self, page) -> List[dict]:
@@ -35,25 +36,33 @@ class PerseoLogoRemover:
         """
         found_elements = []
         
-        # Buscar texto relacionado con PERSEO
+        # Buscar texto relacionado con PERSEO en toda la página
         text_instances = page.search_for("PERSEO")
         text_instances.extend(page.search_for("Perseo"))
         text_instances.extend(page.search_for("perseo"))
         
-        for rect in text_instances:
-            found_elements.append({
-                'type': 'text',
-                'rect': rect,
-                'description': f'Texto PERSEO en {rect}'
-            })
+        # Filtrar solo el texto que está en el pie de página
+        page_rect = page.rect
+        bottom_area_y = page_rect.height - self.logo_search_area['bottom_margin']
         
-        # Buscar imágenes en el área superior
+        for rect in text_instances:
+            # Solo incluir texto que esté en la parte inferior de la página
+            if rect.y0 >= bottom_area_y:
+                found_elements.append({
+                    'type': 'text',
+                    'rect': rect,
+                    'description': f'Texto PERSEO en pie de página {rect}'
+                })
+            else:
+                print(f"  ⚠ Texto PERSEO encontrado fuera del pie de página (ignorado): {rect}")
+        
+        # Buscar imágenes en el área inferior (pie de página)
         page_rect = page.rect
         search_rect = fitz.Rect(
             self.logo_search_area['left_margin'],
-            0,
+            page_rect.height - self.logo_search_area['bottom_margin'],  # Desde abajo hacia arriba
             page_rect.width - self.logo_search_area['right_margin'],
-            self.logo_search_area['top_margin']
+            page_rect.height  # Hasta el final de la página
         )
         
         # Obtener todas las imágenes de la página
@@ -63,13 +72,13 @@ class PerseoLogoRemover:
             # Obtener información de la imagen
             img_rect = page.get_image_bbox(img[7])  # img[7] es el xref de la imagen
             
-            # Verificar si la imagen está en el área de búsqueda
+            # Verificar si la imagen está en el área de búsqueda (pie de página)
             if self._rect_intersects(img_rect, search_rect):
                 found_elements.append({
                     'type': 'image',
                     'rect': img_rect,
                     'xref': img[7],
-                    'description': f'Imagen en área superior {img_rect}'
+                    'description': f'Imagen en pie de página {img_rect}'
                 })
         
         return found_elements
@@ -219,6 +228,24 @@ class PerseoLogoRemover:
                 print(f"❌ {error_msg}")
         
         return total_stats
+
+
+def limpiar_perseo_pdf_bytes(pdf_bytes: bytes) -> bytes:
+    """
+    Recibe un PDF en bytes, elimina el logo PERSEO en cada página y retorna el PDF limpio en bytes.
+    """
+    remover = PerseoLogoRemover()
+    input_stream = io.BytesIO(pdf_bytes)
+    doc = fitz.open(stream=input_stream, filetype='pdf')
+    for page_num in range(len(doc)):
+        page = doc[page_num]
+        perseo_elements = remover.detect_perseo_elements(page)
+        if perseo_elements:
+            remover.remove_perseo_elements(page, perseo_elements)
+    output_stream = io.BytesIO()
+    doc.save(output_stream)
+    doc.close()
+    return output_stream.getvalue()
 
 
 def main():
